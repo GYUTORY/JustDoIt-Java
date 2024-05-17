@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Steady) Casting End.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/Scanner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/Scanner2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/Scanner3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ScannerWhile1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ScannerWhile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ChangeVarEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerEx5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerWhileEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerWhileEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerWhileEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scanner/ex/ScannerWhileEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Array1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Array1Ref1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Array1Ref2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Array1Ref3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Array1Ref4.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Array">
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,29 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array.ex" />
       <recent name="array" />
       <recent name="Scanner.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array1Ref4">
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Array1" />
+  <component name="RunManager" selected="Application.ArrayEx7">
+    <configuration name="ArrayDi4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayDi4" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array1Ref1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Array1Ref1" />
+    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array1Ref2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Array1Ref2" />
+    <configuration name="ArrayEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array1Ref3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Array1Ref3" />
+    <configuration name="ArrayEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx7" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array1Ref4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Array1Ref4" />
+    <configuration name="EnhancedFor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.EnhancedFor1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Array1Ref4" />
-        <item itemvalue="Application.Array1Ref3" />
-        <item itemvalue="Application.Array1Ref2" />
-        <item itemvalue="Application.Array1Ref1" />
-        <item itemvalue="Application.Array1" />
+        <item itemvalue="Application.ArrayEx7" />
+        <item itemvalue="Application.ArrayEx2" />
+        <item itemvalue="Application.ArrayEx1" />
+        <item itemvalue="Application.EnhancedFor1" />
+        <item itemvalue="Application.ArrayDi4" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +147,8 @@
       <workItem from="1715405898063" duration="3301000" />
       <workItem from="1715514860588" duration="2336000" />
       <workItem from="1715607670441" duration="683000" />
-      <workItem from="1715736567235" duration="5742000" />
+      <workItem from="1715736567235" duration="10893000" />
+      <workItem from="1715865510047" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -189,7 +178,28 @@
       <option name="project" value="LOCAL" />
       <updated>1715737389978</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;Scanner finishing, even if you know it, start from the basics">
+      <created>1715754192451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715754192451</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ChangeVarEx">
+      <created>1715865533793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715865533793</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Array">
+      <created>1715865572915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715865572915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +210,9 @@
     <MESSAGE value="scope 공부 마무리" />
     <MESSAGE value="형변환" />
     <MESSAGE value="Steady) Casting End." />
-    <option name="LAST_COMMIT_MESSAGE" value="Steady) Casting End." />
+    <MESSAGE value="&#10;Scanner finishing, even if you know it, start from the basics" />
+    <MESSAGE value="ChangeVarEx" />
+    <MESSAGE value="Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array" />
   </component>
 </project>
