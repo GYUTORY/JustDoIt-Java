@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Array Ex Final">
-      <change afterPath="$PROJECT_DIR$/src/method/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/Method1Ref.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="드디어 메서드 정리 및 공부에 들어감">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/method/Method1Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/Method1Ref.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,7 @@
       <workItem from="1715736567235" duration="10893000" />
       <workItem from="1715865510047" duration="728000" />
       <workItem from="1715957827861" duration="541000" />
-      <workItem from="1716121378399" duration="1093000" />
+      <workItem from="1716121378399" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -210,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715960262838</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="드디어 메서드 정리 및 공부에 들어감">
+      <created>1716124831762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716124831762</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +232,7 @@
     <MESSAGE value="Array" />
     <MESSAGE value="Array Ex" />
     <MESSAGE value="Array Ex Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Ex Final" />
+    <MESSAGE value="드디어 메서드 정리 및 공부에 들어감" />
+    <option name="LAST_COMMIT_MESSAGE" value="드디어 메서드 정리 및 공부에 들어감" />
   </component>
 </project>
