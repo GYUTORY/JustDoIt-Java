@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="드디어 메서드 정리 및 공부에 들어감">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 사용 정리">
+      <change afterPath="$PROJECT_DIR$/src/method/Method2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/method/Method1Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/Method1Ref.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +54,7 @@
       <recent name="Scanner.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Method1Ref">
-    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx1" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Method2">
     <configuration name="ArrayEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx2" />
       <module name="JustDoIt-Java" />
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Method2" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Method2" />
         <item itemvalue="Application.Method1Ref" />
         <item itemvalue="Application.Method1" />
         <item itemvalue="Application.ArrayEx7" />
         <item itemvalue="Application.ArrayEx2" />
-        <item itemvalue="Application.ArrayEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,7 @@
       <workItem from="1715736567235" duration="10893000" />
       <workItem from="1715865510047" duration="728000" />
       <workItem from="1715957827861" duration="541000" />
-      <workItem from="1716121378399" duration="2348000" />
+      <workItem from="1716121378399" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716124831762</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="메서드 사용 정리">
+      <created>1716126120753</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716126120753</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +240,7 @@
     <MESSAGE value="Array Ex" />
     <MESSAGE value="Array Ex Final" />
     <MESSAGE value="드디어 메서드 정리 및 공부에 들어감" />
-    <option name="LAST_COMMIT_MESSAGE" value="드디어 메서드 정리 및 공부에 들어감" />
+    <MESSAGE value="메서드 사용 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="메서드 사용 정리" />
   </component>
 </project>
