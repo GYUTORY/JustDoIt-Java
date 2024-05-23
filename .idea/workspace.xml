@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 정의2">
-      <change afterPath="$PROJECT_DIR$/src/method/MethodReturn1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/MethodReturn2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/MethodValue0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/MethodValue1.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 호출과 값 전달1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +145,7 @@
       <workItem from="1715865510047" duration="728000" />
       <workItem from="1715957827861" duration="541000" />
       <workItem from="1716121378399" duration="3438000" />
-      <workItem from="1716204520299" duration="3221000" />
+      <workItem from="1716204520299" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -235,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716204668531</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="메서드 반환타입">
+      <created>1716303417441</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716303417441</updated>
+    </task>
+    <task id="LOCAL-00014" summary="메서드 호출과 값 전달1">
+      <created>1716303757040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716303757040</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +264,8 @@
     <MESSAGE value="드디어 메서드 정리 및 공부에 들어감" />
     <MESSAGE value="메서드 사용 정리" />
     <MESSAGE value="메서드 정의2" />
-    <option name="LAST_COMMIT_MESSAGE" value="메서드 정의2" />
+    <MESSAGE value="메서드 반환타입" />
+    <MESSAGE value="메서드 호출과 값 전달1" />
+    <option name="LAST_COMMIT_MESSAGE" value="메서드 호출과 값 전달1" />
   </component>
 </project>
