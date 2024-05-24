@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 호출과 값 전달1">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 호출과 값 전달2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,7 @@
       <workItem from="1715865510047" duration="728000" />
       <workItem from="1715957827861" duration="541000" />
       <workItem from="1716121378399" duration="3438000" />
-      <workItem from="1716204520299" duration="4168000" />
+      <workItem from="1716204520299" duration="4973000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716303757040</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="메서드 호출과 값 전달2">
+      <created>1716475921761</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716475921761</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +273,7 @@
     <MESSAGE value="메서드 정의2" />
     <MESSAGE value="메서드 반환타입" />
     <MESSAGE value="메서드 호출과 값 전달1" />
-    <option name="LAST_COMMIT_MESSAGE" value="메서드 호출과 값 전달1" />
+    <MESSAGE value="메서드 호출과 값 전달2" />
+    <option name="LAST_COMMIT_MESSAGE" value="메서드 호출과 값 전달2" />
   </component>
 </project>
