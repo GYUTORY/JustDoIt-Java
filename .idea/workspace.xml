@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 호출과 값 전달3">
-      <change afterPath="$PROJECT_DIR$/src/method/MethodCasting1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/MethodCasting2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="메서드 오버로딩3">
+      <change afterPath="$PROJECT_DIR$/src/method/ex/MethodEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +49,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="overloading" />
       <recent name="method" />
       <recent name="array.ex" />
       <recent name="array" />
       <recent name="Scanner.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodCasting2">
-    <configuration name="MethodCasting1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.MethodCasting1" />
+  <component name="RunManager" selected="Application.MethodEx3Ref">
+    <configuration name="MethodEx1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx1Ref" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="method.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodCasting2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.MethodCasting2" />
+    <configuration name="MethodEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="method.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReturn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.MethodReturn2" />
+    <configuration name="MethodEx2Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx2Ref" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="method.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodValue0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.MethodValue0" />
+    <configuration name="MethodEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx3" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="method.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodValue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.MethodValue1" />
+    <configuration name="MethodEx3Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx3Ref" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="method.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodCasting2" />
-        <item itemvalue="Application.MethodCasting1" />
-        <item itemvalue="Application.MethodValue1" />
-        <item itemvalue="Application.MethodValue0" />
-        <item itemvalue="Application.MethodReturn2" />
+        <item itemvalue="Application.MethodEx3Ref" />
+        <item itemvalue="Application.MethodEx3" />
+        <item itemvalue="Application.MethodEx2Ref" />
+        <item itemvalue="Application.MethodEx2" />
+        <item itemvalue="Application.MethodEx1Ref" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,9 @@
       <workItem from="1715865510047" duration="728000" />
       <workItem from="1715957827861" duration="541000" />
       <workItem from="1716121378399" duration="3438000" />
-      <workItem from="1716204520299" duration="5260000" />
+      <workItem from="1716204520299" duration="5892000" />
+      <workItem from="1716638633525" duration="93000" />
+      <workItem from="1716638731253" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -261,7 +263,35 @@
       <option name="project" value="LOCAL" />
       <updated>1716555372688</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="자동 형변환">
+      <created>1716555624320</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716555624320</updated>
+    </task>
+    <task id="LOCAL-00018" summary="메서드 오버로딩1">
+      <created>1716645582893</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716645582893</updated>
+    </task>
+    <task id="LOCAL-00019" summary="메서드 오버로딩2">
+      <created>1716645586957</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716645586957</updated>
+    </task>
+    <task id="LOCAL-00020" summary="메서드 오버로딩3">
+      <created>1716645591280</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716645591280</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +314,10 @@
     <MESSAGE value="메서드 호출과 값 전달1" />
     <MESSAGE value="메서드 호출과 값 전달2" />
     <MESSAGE value="메서드 호출과 값 전달3" />
-    <option name="LAST_COMMIT_MESSAGE" value="메서드 호출과 값 전달3" />
+    <MESSAGE value="자동 형변환" />
+    <MESSAGE value="메서드 오버로딩1" />
+    <MESSAGE value="메서드 오버로딩2" />
+    <MESSAGE value="메서드 오버로딩3" />
+    <option name="LAST_COMMIT_MESSAGE" value="메서드 오버로딩3" />
   </component>
 </project>
