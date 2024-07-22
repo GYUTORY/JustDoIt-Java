@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Java Basic Start.">
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 배열사용의 한계. Feat) 클래스 도입">
+      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class1/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassStart2">
+  <component name="RunManager" selected="Application.ClassStart3">
     <configuration name="ClassStart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class1.ClassStart1" />
       <module name="JustDoIt-Java" />
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodEx2Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx2Ref" />
+    <configuration name="ClassStart3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class1.ClassStart3" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.ex.*" />
+          <option name="PATTERN" value="class1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassStart3" />
         <item itemvalue="Application.ClassStart2" />
         <item itemvalue="Application.ClassStart1" />
         <item itemvalue="Application.MethodEx3Ref" />
         <item itemvalue="Application.MethodEx3" />
-        <item itemvalue="Application.MethodEx2Ref" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,8 @@
       <workItem from="1718542746610" duration="630000" />
       <workItem from="1719234782688" duration="74000" />
       <workItem from="1721482360182" duration="2232000" />
-      <workItem from="1721537708611" duration="312000" />
+      <workItem from="1721537708611" duration="877000" />
+      <workItem from="1721649243611" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -339,14 +340,20 @@
       <option name="project" value="LOCAL" />
       <updated>1721482584943</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="TIL : 배열사용의 한계. Feat) 클래스 도입">
+      <created>1721538696572</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721538696572</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="scope 공부 마무리" />
     <MESSAGE value="형변환" />
     <MESSAGE value="Steady) Casting End." />
     <MESSAGE value="&#10;Scanner finishing, even if you know it, start from the basics" />
@@ -371,7 +378,8 @@
     <MESSAGE value="문제와 풀이" />
     <MESSAGE value="문제와 풀이 마무리" />
     <MESSAGE value="Java Basic Start." />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Basic Start." />
+    <MESSAGE value="TIL : 배열사용의 한계. Feat) 클래스 도입" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 배열사용의 한계. Feat) 클래스 도입" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
