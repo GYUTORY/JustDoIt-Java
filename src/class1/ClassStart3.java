@@ -10,7 +10,7 @@ public class ClassStart3 {
         // 이렇게 하면 메모리에 실제 Student 객체(인스턴스)를 생성한다. > 메모리 공간도 미리 확보를 한다.
         student1 = new Student(); // > x001; 이렇게 참조값으로 변환된다.
 
-        // Student student1 변수는 이제 메모리에 존재하는 실제 Student 객체(인스턴스_의 참조값을 가지고 있다.
+        // Student student1 변수는 이제 메모리에 존재하는 실제 Student 객체(인스턴스)의 참조값을 가지고 있다.
         // 즉, student1 변수를 통해 메모리에 있는 실제 객체를 접근하고 사용할 수 있다.
         student1.name = "학생1";
         student1.age = 15;
@@ -18,10 +18,22 @@ public class ClassStart3 {
 
 
         Student student2 = new Student();
-        student2.name = "학생2";
+
+        // 객체 사용
+        // - 클래스를 통해 생성한 ㅍ객체를 사용하려면 먼저 메모리에 존재하는 객체에 접근해야 한다.
+        // 객체에 접근하려면 .(점, dot)을 사용하면 된다. -> js나 java나 똑같다.
+
+        // 순서
+        // 1. student1 객체의 name 멤버 변수에 값 대입
+        // 2. 변수에 있는 참조값을 통해 실제 객체에 접근, 해당 객체의 name 멤버 변수에 값 대입
+        student2.name = "학생2"; // x001.name = "학생2"와 똑같다.
         student2.age = 16;
         student2.grade = 80;
 
+        // 객체 값 읽기
+        // 1. 객체 값 읽기
+        // 2. 변수에 있는 참조값을 통해 실제 객체에 접근하고, name 멤버 변수에 접근한다.
+        // 3. 객체의 멤버 변수의 값을 읽어옴.
         System.out.println("이름:" + student1.name + " 나이:" + student1.age + " 성적:" + student1.grade);
         System.out.println("이름:" + student2.name + " 나이:" + student2.age + " 성적:" + student2.grade);
     }
