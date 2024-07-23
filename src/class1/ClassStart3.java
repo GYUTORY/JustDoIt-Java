@@ -3,6 +3,7 @@ package class1;
 public class ClassStart3 {
     public static void main(String[] args) {
         // Student 변수 선언
+        // 즉, student1 객체는 Student 클래스의 인스턴스다.
         Student student1; // Student 타입을 받을 수 있는 변수를 선언한다.
 
         // Student 인스턴스 생성
