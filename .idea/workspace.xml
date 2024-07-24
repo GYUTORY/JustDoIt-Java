@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 클래스 도입">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 클래스, 객체, 인스턴스 정리">
+      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ClassStart3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ClassStart3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassStart3">
+  <component name="RunManager" selected="Application.ClassStart5">
     <configuration name="ClassStart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class1.ClassStart1" />
       <module name="JustDoIt-Java" />
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx3" />
+    <configuration name="ClassStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class1.ClassStart4" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.ex.*" />
+          <option name="PATTERN" value="class1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodEx3Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.ex.MethodEx3Ref" />
+    <configuration name="ClassStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class1.ClassStart5" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.ex.*" />
+          <option name="PATTERN" value="class1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassStart5" />
+        <item itemvalue="Application.ClassStart4" />
         <item itemvalue="Application.ClassStart3" />
         <item itemvalue="Application.ClassStart2" />
         <item itemvalue="Application.ClassStart1" />
-        <item itemvalue="Application.MethodEx3Ref" />
-        <item itemvalue="Application.MethodEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +157,9 @@
       <workItem from="1721482360182" duration="2232000" />
       <workItem from="1721537708611" duration="877000" />
       <workItem from="1721649243611" duration="1728000" />
-      <workItem from="1721734069305" duration="635000" />
+      <workItem from="1721734069305" duration="1155000" />
+      <workItem from="1721735238790" duration="1097000" />
+      <workItem from="1721736347069" duration="575000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -354,15 +357,27 @@
       <option name="project" value="LOCAL" />
       <updated>1721650742061</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="TIL : 객체 사용과 객체 값 읽기.">
+      <created>1721734799145</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721734799145</updated>
+    </task>
+    <task id="LOCAL-00030" summary="TIL : 클래스, 객체, 인스턴스 정리">
+      <created>1721735166147</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721735166147</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Steady) Casting End." />
-    <MESSAGE value="&#10;Scanner finishing, even if you know it, start from the basics" />
     <MESSAGE value="ChangeVarEx" />
     <MESSAGE value="Array" />
     <MESSAGE value="Array Ex" />
@@ -386,7 +401,9 @@
     <MESSAGE value="Java Basic Start." />
     <MESSAGE value="TIL : 배열사용의 한계. Feat) 클래스 도입" />
     <MESSAGE value="TIL : 클래스 도입" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 클래스 도입" />
+    <MESSAGE value="TIL : 객체 사용과 객체 값 읽기." />
+    <MESSAGE value="TIL : 클래스, 객체, 인스턴스 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 클래스, 객체, 인스턴스 정리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
