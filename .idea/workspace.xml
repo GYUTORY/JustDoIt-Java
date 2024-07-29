@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 기본형 vs 참조형1 - 시작 file rename">
-      <change afterPath="$PROJECT_DIR$/src/ref/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/기본형 vs 참조형2 - 변수 대입.md" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 기본형 vs 참조형3 - 메서드호출) 기본형 및 참조형의 경우 자바 현업에서 모르면 진짜 심각한 문제임... 기본중에 기본">
+      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/기본형 vs 참조형3 - 메서드 호출.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/변수의 값 초기화.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/PrimitiveReference",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/PrimitiveReference&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/PrimitiveReference" />
@@ -64,48 +70,9 @@
       <recent name="array.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VarChange2">
-    <configuration name="ClassStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ClassStart5" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieReviewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.MovieReviewMain" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProduceOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ProduceOrderMain" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.VarChange1" />
+  <component name="RunManager" selected="Application.InitMain">
+    <configuration name="InitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.InitMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +84,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.VarChange2" />
+    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.Method1" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.Method2" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.MethodChange1" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.MethodChange2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VarChange2" />
-        <item itemvalue="Application.VarChange1" />
-        <item itemvalue="Application.ProduceOrderMain" />
-        <item itemvalue="Application.MovieReviewMain" />
-        <item itemvalue="Application.ClassStart5" />
+        <item itemvalue="Application.InitMain" />
+        <item itemvalue="Application.Method2" />
+        <item itemvalue="Application.Method1" />
+        <item itemvalue="Application.MethodChange2" />
+        <item itemvalue="Application.MethodChange1" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +176,8 @@
       <workItem from="1721828025988" duration="1504000" />
       <workItem from="1721965182673" duration="2631000" />
       <workItem from="1722050932012" duration="2044000" />
+      <workItem from="1722138764052" duration="2502000" />
+      <workItem from="1722141659572" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -423,15 +431,27 @@
       <option name="project" value="LOCAL" />
       <updated>1722052027126</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="TIL : 기본형 vs 참조형2 - 변수대입 이론">
+      <created>1722138794913</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1722138794913</updated>
+    </task>
+    <task id="LOCAL-00038" summary="TIL : 기본형 vs 참조형2 - 변수대입 실습">
+      <created>1722138801794</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1722138801794</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="메서드 정의2" />
-    <MESSAGE value="메서드 반환타입" />
     <MESSAGE value="메서드 호출과 값 전달1" />
     <MESSAGE value="메서드 호출과 값 전달2" />
     <MESSAGE value="메서드 호출과 값 전달3" />
@@ -455,7 +475,9 @@
     <MESSAGE value="TIL : 클래스 정리" />
     <MESSAGE value="TIL : 기본형 vs 참조형1 - 시작" />
     <MESSAGE value="TIL : 기본형 vs 참조형1 - 시작 file rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 기본형 vs 참조형1 - 시작 file rename" />
+    <MESSAGE value="TIL : 기본형 vs 참조형2 - 변수대입 이론" />
+    <MESSAGE value="TIL : 기본형 vs 참조형2 - 변수대입 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 기본형 vs 참조형2 - 변수대입 실습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
