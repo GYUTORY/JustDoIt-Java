@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 기본형 vs 참조형3 - 메서드호출) 기본형 및 참조형의 경우 자바 현업에서 모르면 진짜 심각한 문제임... 기본중에 기본">
-      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : Class 추가">
       <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/기본형 vs 참조형3 - 메서드 호출.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/변수의 값 초기화.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +169,7 @@
       <workItem from="1721965182673" duration="2631000" />
       <workItem from="1722050932012" duration="2044000" />
       <workItem from="1722138764052" duration="2502000" />
-      <workItem from="1722141659572" duration="1453000" />
+      <workItem from="1722141659572" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -445,17 +437,41 @@
       <option name="project" value="LOCAL" />
       <updated>1722138801794</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="TIL : 기본형 vs 참조형3 - 메서드호출) 기본형 및 참조형의 경우 자바 현업에서 모르면 진짜 심각한 문제임... 기본중에 기본">
+      <created>1722257920409</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1722257920409</updated>
+    </task>
+    <task id="LOCAL-00040" summary="TIL : 참조형과 메서드 호출 - 활용">
+      <created>1722346036630</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1722346036630</updated>
+    </task>
+    <task id="LOCAL-00041" summary="TIL : README 출처 추가">
+      <created>1722346049864</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1722346049864</updated>
+    </task>
+    <task id="LOCAL-00042" summary="TIL : Class 추가">
+      <created>1722346456533</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1722346456533</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="메서드 호출과 값 전달1" />
-    <MESSAGE value="메서드 호출과 값 전달2" />
-    <MESSAGE value="메서드 호출과 값 전달3" />
-    <MESSAGE value="자동 형변환" />
     <MESSAGE value="메서드 오버로딩1" />
     <MESSAGE value="메서드 오버로딩2" />
     <MESSAGE value="메서드 오버로딩3" />
@@ -477,7 +493,11 @@
     <MESSAGE value="TIL : 기본형 vs 참조형1 - 시작 file rename" />
     <MESSAGE value="TIL : 기본형 vs 참조형2 - 변수대입 이론" />
     <MESSAGE value="TIL : 기본형 vs 참조형2 - 변수대입 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 기본형 vs 참조형2 - 변수대입 실습" />
+    <MESSAGE value="TIL : 기본형 vs 참조형3 - 메서드호출) 기본형 및 참조형의 경우 자바 현업에서 모르면 진짜 심각한 문제임... 기본중에 기본" />
+    <MESSAGE value="TIL : 참조형과 메서드 호출 - 활용" />
+    <MESSAGE value="TIL : README 출처 추가" />
+    <MESSAGE value="TIL : Class 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : Class 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
