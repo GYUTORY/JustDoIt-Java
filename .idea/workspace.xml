@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : Class 추가">
-      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : NullPointerException">
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <recent name="array.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InitMain">
+  <component name="RunManager" selected="Application.NullMain4">
     <configuration name="InitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ref.InitMain" />
       <module name="JustDoIt-Java" />
@@ -76,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.Method1" />
+    <configuration name="NullMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.Method2" />
+    <configuration name="NullMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.MethodChange1" />
+    <configuration name="NullMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain3" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.MethodChange2" />
+    <configuration name="NullMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain4" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NullMain4" />
+        <item itemvalue="Application.NullMain3" />
+        <item itemvalue="Application.NullMain2" />
+        <item itemvalue="Application.NullMain1" />
         <item itemvalue="Application.InitMain" />
-        <item itemvalue="Application.Method2" />
-        <item itemvalue="Application.Method1" />
-        <item itemvalue="Application.MethodChange2" />
-        <item itemvalue="Application.MethodChange1" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +169,10 @@
       <workItem from="1722050932012" duration="2044000" />
       <workItem from="1722138764052" duration="2502000" />
       <workItem from="1722141659572" duration="3385000" />
+      <workItem from="1722429877450" duration="55000" />
+      <workItem from="1722429935051" duration="1456000" />
+      <workItem from="1722438116997" duration="29000" />
+      <workItem from="1722522669044" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="기본중에 기본임. Java나 JavaScript나 개념은 동일함">
       <created>1715407597250</created>
@@ -465,16 +468,34 @@
       <option name="project" value="LOCAL" />
       <updated>1722346456533</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="TIL : 기본형과 참조형 - 변수와 초기화">
+      <created>1722429901826</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1722429901826</updated>
+    </task>
+    <task id="LOCAL-00044" summary="TIL : Null">
+      <created>1722438131906</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722438131906</updated>
+    </task>
+    <task id="LOCAL-00045" summary="TIL : NullPointerException">
+      <created>1722599605286</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722599605286</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="메서드 오버로딩1" />
-    <MESSAGE value="메서드 오버로딩2" />
-    <MESSAGE value="메서드 오버로딩3" />
     <MESSAGE value="문제와 풀이 1 - 1" />
     <MESSAGE value="문제와 풀이 1 - 2" />
     <MESSAGE value="문제와 풀이 1 - 3" />
@@ -497,7 +518,10 @@
     <MESSAGE value="TIL : 참조형과 메서드 호출 - 활용" />
     <MESSAGE value="TIL : README 출처 추가" />
     <MESSAGE value="TIL : Class 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : Class 추가" />
+    <MESSAGE value="TIL : 기본형과 참조형 - 변수와 초기화" />
+    <MESSAGE value="TIL : Null" />
+    <MESSAGE value="TIL : NullPointerException" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : NullPointerException" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
