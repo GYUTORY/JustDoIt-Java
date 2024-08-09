@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 절차 지향 프로그래밍3 - 메서드 추출">
-      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ValueObjectMain.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드">
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,20 +65,7 @@
       <recent name="overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValueObjectMain">
-    <configuration name="MusicPlayerMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain1" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MusicPlayerMain4">
     <configuration name="MusicPlayerMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain2" />
       <module name="JustDoIt-Java" />
@@ -94,6 +81,19 @@
     </configuration>
     <configuration name="MusicPlayerMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain3" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicPlayerMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain4" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MusicPlayerMain4" />
         <item itemvalue="Application.ValueObjectMain" />
         <item itemvalue="Application.ValueDataMain" />
         <item itemvalue="Application.MusicPlayerMain3" />
         <item itemvalue="Application.MusicPlayerMain2" />
-        <item itemvalue="Application.MusicPlayerMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -181,13 +181,8 @@
       <workItem from="1722946446622" duration="421000" />
       <workItem from="1722946871596" duration="633000" />
       <workItem from="1722947508989" duration="1843000" />
-    </task>
-    <task id="LOCAL-00002" summary="scope 공부 마무리">
-      <created>1715514923708</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1715514923708</updated>
+      <workItem from="1723125305085" duration="3199000" />
+      <workItem from="1723203518646" duration="1647000" />
     </task>
     <task id="LOCAL-00003" summary="형변환">
       <created>1715605735780</created>
@@ -525,14 +520,20 @@
       <option name="project" value="LOCAL" />
       <updated>1723041162340</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드">
+      <created>1723125467836</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1723125467836</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Basic Start." />
     <MESSAGE value="TIL : 배열사용의 한계. Feat) 클래스 도입" />
     <MESSAGE value="TIL : 클래스 도입" />
     <MESSAGE value="TIL : 객체 사용과 객체 값 읽기." />
@@ -557,7 +558,8 @@
     <MESSAGE value="TIL : 절차 지향 프로그래밍1 - 시작" />
     <MESSAGE value="TIL : 절차 지향 프로그래밍2 - 데이터 묶음" />
     <MESSAGE value="TIL : 절차 지향 프로그래밍3 - 메서드 추출" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 절차 지향 프로그래밍3 - 메서드 추출" />
+    <MESSAGE value="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
