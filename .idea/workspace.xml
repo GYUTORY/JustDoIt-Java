@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 객체 지향 프로그래밍과 캡슐화 정리">
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MethodInitMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/정리.md" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 생성자 - 필요한 이유">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/construct/MethodInitMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/construct/MethodInitMain1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,14 +184,8 @@
       <workItem from="1723203518646" duration="1981000" />
       <workItem from="1723209996104" duration="2540000" />
       <workItem from="1723254240680" duration="1835000" />
-      <workItem from="1723358407419" duration="385000" />
-    </task>
-    <task id="LOCAL-00008" summary="Array Ex">
-      <created>1715957865805</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1715957865805</updated>
+      <workItem from="1723358407419" duration="457000" />
+      <workItem from="1723358867411" duration="24000" />
     </task>
     <task id="LOCAL-00009" summary="Array Ex Final">
       <created>1715960262837</created>
@@ -531,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723356270405</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="TIL : 생성자 - 필요한 이유">
+      <created>1723358858111</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1723358858111</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 클래스 배열도임 - 리팩토링" />
     <MESSAGE value="TIL : 클래스 문제풀이" />
     <MESSAGE value="TIL : 클래스 정리" />
     <MESSAGE value="TIL : 기본형 vs 참조형1 - 시작" />
@@ -574,7 +572,8 @@
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이2" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 객체 지향 프로그래밍과 캡슐화 정리" />
+    <MESSAGE value="TIL : 생성자 - 필요한 이유" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 생성자 - 필요한 이유" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

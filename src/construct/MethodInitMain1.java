@@ -17,9 +17,9 @@ public class MethodInitMain1 {
     }
 
     static void initMember(MemberInit member, String name, int age, int grade) {
-        member.name = "user2";
-        member.age = 16;
-        member.grade = 80;
+        member.name = name;
+        member.age = age;
+        member.grade = grade;
     }
 }
 
