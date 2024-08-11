@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 객체 지향 프로그래밍과 캡슐">
-      <change afterPath="$PROJECT_DIR$/src/oop/ex/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/ex/AccountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/ex/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/ex/RectangleOopMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/ex/RectangleProcedureMain.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가">
+      <change afterPath="$PROJECT_DIR$/src/oop/ex/정리.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop1/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,28 +182,8 @@
       <workItem from="1722947508989" duration="1843000" />
       <workItem from="1723125305085" duration="3199000" />
       <workItem from="1723203518646" duration="1981000" />
-      <workItem from="1723209996104" duration="2373000" />
-    </task>
-    <task id="LOCAL-00004" summary="Steady) Casting End.">
-      <created>1715737389978</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1715737389978</updated>
-    </task>
-    <task id="LOCAL-00005" summary="&#10;Scanner finishing, even if you know it, start from the basics">
-      <created>1715754192451</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1715754192451</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ChangeVarEx">
-      <created>1715865533793</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1715865533793</updated>
+      <workItem from="1723209996104" duration="2540000" />
+      <workItem from="1723254240680" duration="1249000" />
     </task>
     <task id="LOCAL-00007" summary="Array">
       <created>1715865572915</created>
@@ -532,7 +507,28 @@
       <option name="project" value="LOCAL" />
       <updated>1723209917092</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이">
+      <created>1723254083395</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1723254083395</updated>
+    </task>
+    <task id="LOCAL-00054" summary="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이2">
+      <created>1723254088695</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1723254088695</updated>
+    </task>
+    <task id="LOCAL-00055" summary="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가">
+      <created>1723254094763</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1723254094763</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,9 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 클래스 도입" />
-    <MESSAGE value="TIL : 객체 사용과 객체 값 읽기." />
-    <MESSAGE value="TIL : 클래스, 객체, 인스턴스 정리" />
     <MESSAGE value="TIL : 클래스 배열도임 - 시작" />
     <MESSAGE value="TIL : 클래스 배열도임 - 리팩토링" />
     <MESSAGE value="TIL : 클래스 문제풀이" />
@@ -575,7 +568,10 @@
     <MESSAGE value="TIL : 절차 지향 프로그래밍3 - 메서드 추출" />
     <MESSAGE value="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 객체 지향 프로그래밍과 캡슐화" />
+    <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이" />
+    <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이2" />
+    <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
