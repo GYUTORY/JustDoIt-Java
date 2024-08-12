@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 생성자 - 필요한 이유">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 생성자 - 필요한 이유2">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefaultMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberThis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MethodInitMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MethodInitMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/construct/MethodInitMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/construct/MethodInitMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustDoIt-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JustDoIt-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/construct/MemberInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/construct/MemberInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/construct/정리.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/construct/정리.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -57,20 +72,20 @@
       <recent name="$PROJECT_DIR$/src/PrimitiveReference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="construct" />
       <recent name="oop.ex" />
       <recent name="oop1" />
       <recent name="ref.ex" />
       <recent name="ref" />
-      <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodInitMain1">
-    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.ex.AccountMain" />
+  <component name="RunManager" selected="Application.BookMain">
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.ex.*" />
+          <option name="PATTERN" value="construct.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodInitMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.MethodInitMain1" />
+    <configuration name="ConstructMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ConstructMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicPlayerMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain4" />
+    <configuration name="ConstructMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ConstructMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleOopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.ex.RectangleOopMain" />
+    <configuration name="MemberDefaultMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.MemberDefaultMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.ex.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleProcedureMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.ex.RectangleProcedureMain" />
+    <configuration name="MethodInitMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.MethodInitMain3" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.ex.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodInitMain1" />
-        <item itemvalue="Application.AccountMain" />
-        <item itemvalue="Application.RectangleOopMain" />
-        <item itemvalue="Application.RectangleProcedureMain" />
-        <item itemvalue="Application.MusicPlayerMain4" />
+        <item itemvalue="Application.BookMain" />
+        <item itemvalue="Application.ConstructMain2" />
+        <item itemvalue="Application.MemberDefaultMain" />
+        <item itemvalue="Application.ConstructMain1" />
+        <item itemvalue="Application.MethodInitMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +200,8 @@
       <workItem from="1723209996104" duration="2540000" />
       <workItem from="1723254240680" duration="1835000" />
       <workItem from="1723358407419" duration="457000" />
-      <workItem from="1723358867411" duration="24000" />
-    </task>
-    <task id="LOCAL-00009" summary="Array Ex Final">
-      <created>1715960262837</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1715960262838</updated>
+      <workItem from="1723358867411" duration="1866000" />
+      <workItem from="1723360740388" duration="3688000" />
     </task>
     <task id="LOCAL-00010" summary="드디어 메서드 정리 및 공부에 들어감">
       <created>1716124831762</created>
@@ -530,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723358858111</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="TIL : 생성자 - 필요한 이유2">
+      <created>1723358896387</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1723358896387</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 클래스 문제풀이" />
     <MESSAGE value="TIL : 클래스 정리" />
     <MESSAGE value="TIL : 기본형 vs 참조형1 - 시작" />
     <MESSAGE value="TIL : 기본형 vs 참조형1 - 시작 file rename" />
@@ -573,7 +588,8 @@
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 정리" />
     <MESSAGE value="TIL : 생성자 - 필요한 이유" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 생성자 - 필요한 이유" />
+    <MESSAGE value="TIL : 생성자 - 필요한 이유2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 생성자 - 필요한 이유2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
