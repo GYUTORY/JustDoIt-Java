@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 생성자 - 정리">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 접근제어자 시작">
       <change afterPath="$PROJECT_DIR$/src/access/Access.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/SpeakerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/Package.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/b/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/AccessOuterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +68,13 @@
       <recent name="oop1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpeakerMain">
-    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
+  <component name="RunManager" selected="Application.AccessOuterMain">
+    <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.ex.*" />
+          <option name="PATTERN" value="access.a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.PackageMain1" />
+    <configuration name="AccessOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.b.AccessOuterMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pack.*" />
+          <option name="PATTERN" value="access.b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessOuterMain" />
+        <item itemvalue="Application.AccessInnerMain" />
         <item itemvalue="Application.SpeakerMain" />
         <item itemvalue="Application.PackageMain3" />
         <item itemvalue="Application.PackageMain2" />
-        <item itemvalue="Application.PackageMain1" />
-        <item itemvalue="Application.BookMain" />
       </list>
     </recent_temporary>
   </component>
@@ -208,48 +195,8 @@
       <workItem from="1723470401567" duration="2269000" />
       <workItem from="1723550475840" duration="1923000" />
       <workItem from="1723552571376" duration="2477000" />
-    </task>
-    <task id="LOCAL-00019" summary="메서드 오버로딩2">
-      <created>1716645586957</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1716645586957</updated>
-    </task>
-    <task id="LOCAL-00020" summary="메서드 오버로딩3">
-      <created>1716645591280</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1716645591280</updated>
-    </task>
-    <task id="LOCAL-00021" summary="문제와 풀이 1 - 1">
-      <created>1716700272330</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1716700272330</updated>
-    </task>
-    <task id="LOCAL-00022" summary="문제와 풀이 1 - 2">
-      <created>1716700276556</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1716700276556</updated>
-    </task>
-    <task id="LOCAL-00023" summary="문제와 풀이 1 - 3">
-      <created>1716700282057</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1716700282057</updated>
-    </task>
-    <task id="LOCAL-00024" summary="문제와 풀이">
-      <created>1716700286774</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1716700286774</updated>
+      <workItem from="1723701566697" duration="2564000" />
+      <workItem from="1723860364693" duration="992000" />
     </task>
     <task id="LOCAL-00025" summary="문제와 풀이 마무리">
       <created>1716808683827</created>
@@ -552,7 +499,49 @@
       <option name="project" value="LOCAL" />
       <updated>1723643137895</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="TIL : 패키지 시작">
+      <created>1723701642996</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1723701642996</updated>
+    </task>
+    <task id="LOCAL-00069" summary="TIL : 패키지 import">
+      <created>1723701656007</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1723701656007</updated>
+    </task>
+    <task id="LOCAL-00070" summary="TIL : 패키지 시작">
+      <created>1723701705928</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1723701705928</updated>
+    </task>
+    <task id="LOCAL-00071" summary="TIL : 패키지 활용">
+      <created>1723701837287</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1723701837287</updated>
+    </task>
+    <task id="LOCAL-00072" summary="TIL : 패키지 정리">
+      <created>1723802741552</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1723802741552</updated>
+    </task>
+    <task id="LOCAL-00073" summary="TIL : 접근제어자 시작">
+      <created>1723862889585</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1723862889586</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,11 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 참조형과 메서드 호출 - 활용" />
-    <MESSAGE value="TIL : README 출처 추가" />
-    <MESSAGE value="TIL : Class 추가" />
-    <MESSAGE value="TIL : 기본형과 참조형 - 변수와 초기화" />
-    <MESSAGE value="TIL : Null" />
     <MESSAGE value="TIL : NullPointerException" />
     <MESSAGE value="TIL : 기본형과 참조형) 문제와 풀이" />
     <MESSAGE value="TIL : 기본형과 참조형) 문제와 풀 마무리 이제 객체지향 프로그래밍으로 넘어가자." />
@@ -595,7 +579,12 @@
     <MESSAGE value="// TIL : 생성자 - 오버로딩과 this()" />
     <MESSAGE value="TIL : 생성자 - 문제와 풀이" />
     <MESSAGE value="TIL : 생성자 - 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 생성자 - 정리" />
+    <MESSAGE value="TIL : 패키지 import" />
+    <MESSAGE value="TIL : 패키지 시작" />
+    <MESSAGE value="TIL : 패키지 활용" />
+    <MESSAGE value="TIL : 패키지 정리" />
+    <MESSAGE value="TIL : 접근제어자 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 접근제어자 시작" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
