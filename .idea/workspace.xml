@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 접근제어자 시작">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 접근 제어자 사용 - 필드, 메서드">
       <change afterPath="$PROJECT_DIR$/src/access/Access.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/AccessOuterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClassInnerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/PublicClassOuterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +61,14 @@
       <recent name="$PROJECT_DIR$/src/PrimitiveReference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="access.b" />
       <recent name="pack" />
       <recent name="pack.b" />
       <recent name="construct" />
       <recent name="oop.ex" />
-      <recent name="oop1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccessOuterMain">
+  <component name="RunManager" selected="Application.PublicClassInnerMain">
     <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="JustDoIt-Java" />
@@ -95,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.PackageMain2" />
+    <configuration name="PackageMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pack.PackageMain3" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.PackageMain3" />
+    <configuration name="PublicClassInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.a.PublicClassInnerMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pack.*" />
+          <option name="PATTERN" value="access.a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PublicClassInnerMain" />
         <item itemvalue="Application.AccessOuterMain" />
         <item itemvalue="Application.AccessInnerMain" />
         <item itemvalue="Application.SpeakerMain" />
         <item itemvalue="Application.PackageMain3" />
-        <item itemvalue="Application.PackageMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -197,13 +197,7 @@
       <workItem from="1723552571376" duration="2477000" />
       <workItem from="1723701566697" duration="2564000" />
       <workItem from="1723860364693" duration="992000" />
-    </task>
-    <task id="LOCAL-00025" summary="문제와 풀이 마무리">
-      <created>1716808683827</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1716808683827</updated>
+      <workItem from="1723950556044" duration="2733000" />
     </task>
     <task id="LOCAL-00026" summary="Java Basic Start.">
       <created>1721482584943</created>
@@ -541,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723862889586</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="TIL : 접근 제어자 사용 - 필드, 메서드">
+      <created>1723950601806</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1723950601806</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : NullPointerException" />
     <MESSAGE value="TIL : 기본형과 참조형) 문제와 풀이" />
     <MESSAGE value="TIL : 기본형과 참조형) 문제와 풀 마무리 이제 객체지향 프로그래밍으로 넘어가자." />
     <MESSAGE value="TIL : 절차 지향 프로그래밍1 - 시작" />
@@ -584,7 +584,8 @@
     <MESSAGE value="TIL : 패키지 활용" />
     <MESSAGE value="TIL : 패키지 정리" />
     <MESSAGE value="TIL : 접근제어자 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 접근제어자 시작" />
+    <MESSAGE value="TIL : 접근 제어자 사용 - 필드, 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 접근 제어자 사용 - 필드, 메서드" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
