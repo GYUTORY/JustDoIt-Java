@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 접근 제어자 정리">
-      <change afterPath="$PROJECT_DIR$/src/access/ex/CounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/MaxCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 스택 영역과 힙 영역 2">
+      <change afterPath="$PROJECT_DIR$/src/static1/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/Data1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/Data2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/DataCountMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/DataCounterMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +69,13 @@
       <recent name="oop.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShoppingCartMain">
-    <configuration name="AccessOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.b.AccessOuterMain" />
+  <component name="RunManager" selected="Application.DataCounterMain2">
+    <configuration name="DataCountMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static1.DataCountMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.b.*" />
+          <option name="PATTERN" value="static1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAmountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.BankAmountMain" />
+    <configuration name="DataCounterMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static1.DataCounterMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.*" />
+          <option name="PATTERN" value="static1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.ex.CounterMain" />
+    <configuration name="JavaMemoryMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory.JavaMemoryMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.ex.*" />
+          <option name="PATTERN" value="memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublicClassInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.a.PublicClassInnerMain" />
+    <configuration name="JavaMemoryMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory.JavaMemoryMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.*" />
+          <option name="PATTERN" value="memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataCounterMain2" />
+        <item itemvalue="Application.DataCountMain1" />
+        <item itemvalue="Application.JavaMemoryMain2" />
+        <item itemvalue="Application.JavaMemoryMain1" />
         <item itemvalue="Application.ShoppingCartMain" />
-        <item itemvalue="Application.CounterMain" />
-        <item itemvalue="Application.BankAmountMain" />
-        <item itemvalue="Application.PublicClassInnerMain" />
-        <item itemvalue="Application.AccessOuterMain" />
       </list>
     </recent_temporary>
   </component>
@@ -203,42 +203,10 @@
       <workItem from="1724246466717" duration="568000" />
       <workItem from="1724331457466" duration="16000" />
       <workItem from="1724366982831" duration="554000" />
-      <workItem from="1724490696159" duration="1960000" />
-    </task>
-    <task id="LOCAL-00029" summary="TIL : 객체 사용과 객체 값 읽기.">
-      <created>1721734799145</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1721734799145</updated>
-    </task>
-    <task id="LOCAL-00030" summary="TIL : 클래스, 객체, 인스턴스 정리">
-      <created>1721735166147</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1721735166147</updated>
-    </task>
-    <task id="LOCAL-00031" summary="TIL : 클래스 배열도임 - 시작">
-      <created>1721827946512</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1721827946512</updated>
-    </task>
-    <task id="LOCAL-00032" summary="TIL : 클래스 배열도임 - 리팩토링">
-      <created>1721827955060</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1721827955060</updated>
-    </task>
-    <task id="LOCAL-00033" summary="TIL : 클래스 문제풀이">
-      <created>1721916575989</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1721916575989</updated>
+      <workItem from="1724490696159" duration="7289000" />
+      <workItem from="1724768988244" duration="2158000" />
+      <workItem from="1725029140584" duration="48000" />
+      <workItem from="1725280427982" duration="865000" />
     </task>
     <task id="LOCAL-00034" summary="TIL : 클래스 정리">
       <created>1721996142357</created>
@@ -548,7 +516,42 @@
       <option name="project" value="LOCAL" />
       <updated>1724331470616</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="TIL : 접근 제어자 문제와 풀이 1">
+      <created>1724492858954</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1724492858954</updated>
+    </task>
+    <task id="LOCAL-00079" summary="TIL : 접근 제어자 문제와 풀이 2">
+      <created>1724492866043</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1724492866043</updated>
+    </task>
+    <task id="LOCAL-00080" summary="TIL : 스택 영역">
+      <created>1724768679446</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1724768679447</updated>
+    </task>
+    <task id="LOCAL-00081" summary="TIL : 스택 영역과 힙 영역 1">
+      <created>1724850496942</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850496942</updated>
+    </task>
+    <task id="LOCAL-00082" summary="TIL : 스택 영역과 힙 영역 2">
+      <created>1724850503611</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850503611</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,11 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 절차 지향 프로그래밍2 - 데이터 묶음" />
-    <MESSAGE value="TIL : 절차 지향 프로그래밍3 - 메서드 추출" />
-    <MESSAGE value="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드" />
-    <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화" />
-    <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이2" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 정리" />
@@ -591,7 +589,12 @@
     <MESSAGE value="TIL : 접근 제어자 사용 - 클래스 레벨" />
     <MESSAGE value="TIL : 접근 제어자에서의 캡슐화" />
     <MESSAGE value="TIL : 접근 제어자 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 접근 제어자 정리" />
+    <MESSAGE value="TIL : 접근 제어자 문제와 풀이 1" />
+    <MESSAGE value="TIL : 접근 제어자 문제와 풀이 2" />
+    <MESSAGE value="TIL : 스택 영역" />
+    <MESSAGE value="TIL : 스택 영역과 힙 영역 1" />
+    <MESSAGE value="TIL : 스택 영역과 힙 영역 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : 스택 영역과 힙 영역 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
