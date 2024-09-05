@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : 스택 영역과 힙 영역 2">
-      <change afterPath="$PROJECT_DIR$/src/static1/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static1/Data1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static1/Data2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static1/DataCountMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static1/DataCounterMain2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL : static 변수 11">
+      <change afterPath="$PROJECT_DIR$/src/static1/Data3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,14 +202,8 @@
       <workItem from="1724490696159" duration="7289000" />
       <workItem from="1724768988244" duration="2158000" />
       <workItem from="1725029140584" duration="48000" />
-      <workItem from="1725280427982" duration="865000" />
-    </task>
-    <task id="LOCAL-00034" summary="TIL : 클래스 정리">
-      <created>1721996142357</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1721996142357</updated>
+      <workItem from="1725280427982" duration="1588000" />
+      <workItem from="1725543083723" duration="301000" />
     </task>
     <task id="LOCAL-00035" summary="TIL : 기본형 vs 참조형1 - 시작">
       <created>1722051630973</created>
@@ -551,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724850503611</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="TIL : static 변수 1">
+      <created>1725281504579</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1725281504580</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이2" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가" />
     <MESSAGE value="TIL : 객체 지향 프로그래밍과 캡슐화 정리" />
     <MESSAGE value="TIL : 생성자 - 필요한 이유" />
@@ -594,7 +590,8 @@
     <MESSAGE value="TIL : 스택 영역" />
     <MESSAGE value="TIL : 스택 영역과 힙 영역 1" />
     <MESSAGE value="TIL : 스택 영역과 힙 영역 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL : 스택 영역과 힙 영역 2" />
+    <MESSAGE value="TIL : static 변수 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL : static 변수 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
