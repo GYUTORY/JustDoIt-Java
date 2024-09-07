@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment=" TIl - statics 변수 2 - 3">
-      <change afterPath="$PROJECT_DIR$/src/static1/statics 변수 정리.md" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment=" TIl - statics 변수 장리">
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoUtil2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static1/DataCountMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/static1/DataCountMain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static1/statics 변수 정리.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/static1/statics 변수 정리.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +62,14 @@
       <recent name="$PROJECT_DIR$/src/PrimitiveReference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="static2" />
       <recent name="access.b" />
       <recent name="pack" />
       <recent name="pack.b" />
       <recent name="construct" />
-      <recent name="oop.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataCountMain3">
+  <component name="RunManager" selected="Application.DecoMain2">
     <configuration name="DataCountMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="static1.DataCountMain1" />
       <module name="JustDoIt-Java" />
@@ -106,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaMemoryMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.JavaMemoryMain1" />
+    <configuration name="DecoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memory.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaMemoryMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.JavaMemoryMain2" />
+    <configuration name="DecoMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memory.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoMain2" />
+        <item itemvalue="Application.DecoMain1" />
         <item itemvalue="Application.DataCountMain3" />
         <item itemvalue="Application.DataCounterMain2" />
         <item itemvalue="Application.DataCountMain1" />
-        <item itemvalue="Application.JavaMemoryMain2" />
-        <item itemvalue="Application.JavaMemoryMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -205,20 +208,7 @@
       <workItem from="1725029140584" duration="48000" />
       <workItem from="1725280427982" duration="1588000" />
       <workItem from="1725543083723" duration="1665000" />
-    </task>
-    <task id="LOCAL-00038" summary="TIL : 기본형 vs 참조형2 - 변수대입 실습">
-      <created>1722138801794</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1722138801794</updated>
-    </task>
-    <task id="LOCAL-00039" summary="TIL : 기본형 vs 참조형3 - 메서드호출) 기본형 및 참조형의 경우 자바 현업에서 모르면 진짜 심각한 문제임... 기본중에 기본">
-      <created>1722257920409</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1722257920409</updated>
+      <workItem from="1725592862504" duration="1726000" />
     </task>
     <task id="LOCAL-00040" summary="TIL : 참조형과 메서드 호출 - 활용">
       <created>1722346036630</created>
@@ -549,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725544006271</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary=" TIl - statics 변수 2 - 4">
+      <created>1725593070092</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1725593070092</updated>
+    </task>
+    <task id="LOCAL-00088" summary=" TIl - statics 변수 장리">
+      <created>1725593081082</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1725593081082</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,8 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 생성자 - 필요한 이유2" />
-    <MESSAGE value="// TIL : 생성자 - this" />
     <MESSAGE value="TIL : 생성자 - this" />
     <MESSAGE value="// TIL : 생성자" />
     <MESSAGE value="// TIL : 생성자 - 오버로딩과 this()" />
@@ -592,7 +594,9 @@
     <MESSAGE value=" TIl - statics 변수 2 - 1" />
     <MESSAGE value=" TIl - statics 변수 2 - 2" />
     <MESSAGE value=" TIl - statics 변수 2 - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value=" TIl - statics 변수 2 - 3" />
+    <MESSAGE value=" TIl - statics 변수 2 - 4" />
+    <MESSAGE value=" TIl - statics 변수 장리" />
+    <option name="LAST_COMMIT_MESSAGE" value=" TIl - statics 변수 장리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
