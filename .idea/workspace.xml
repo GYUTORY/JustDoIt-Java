@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - static method 2">
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtilsMain.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - final 문제풀이">
+      <change afterPath="$PROJECT_DIR$/src/final1/final 정리.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static1/statics 변수 와 메서드 정리.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/static1/statics 변수 와 메서드 정리.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,20 +64,20 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="final1" />
       <recent name="static2" />
       <recent name="access.b" />
       <recent name="pack" />
       <recent name="pack.b" />
-      <recent name="construct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathArrayUtilsMain">
-    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.ex.CarMain" />
+  <component name="RunManager" selected="Application.MemberMain">
+    <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.ex.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoDataMain" />
+    <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoMain1" />
+    <configuration name="FinalFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.FinalFieldMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoMain2" />
+    <configuration name="FinalRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.FinalRefMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathArrayUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.ex.MathArrayUtilsMain" />
+    <configuration name="MemberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.ex.MemberMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.ex.*" />
+          <option name="PATTERN" value="final1.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MathArrayUtilsMain" />
-        <item itemvalue="Application.CarMain" />
-        <item itemvalue="Application.DecoDataMain" />
-        <item itemvalue="Application.DecoMain2" />
-        <item itemvalue="Application.DecoMain1" />
+        <item itemvalue="Application.MemberMain" />
+        <item itemvalue="Application.FinalRefMain" />
+        <item itemvalue="Application.ConstantMain1" />
+        <item itemvalue="Application.ConstantMain2" />
+        <item itemvalue="Application.FinalFieldMain" />
       </list>
     </recent_temporary>
   </component>
@@ -215,56 +211,11 @@
       <workItem from="1725280427982" duration="1588000" />
       <workItem from="1725543083723" duration="1665000" />
       <workItem from="1725592862504" duration="5616000" />
-      <workItem from="1725766819802" duration="241000" />
-    </task>
-    <task id="LOCAL-00044" summary="TIL : Null">
-      <created>1722438131906</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1722438131906</updated>
-    </task>
-    <task id="LOCAL-00045" summary="TIL : NullPointerException">
-      <created>1722599605286</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1722599605286</updated>
-    </task>
-    <task id="LOCAL-00046" summary="TIL : NullPointerException">
-      <created>1722689947771</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1722689947771</updated>
-    </task>
-    <task id="LOCAL-00047" summary="TIL : 기본형과 참조형) 문제와 풀이">
-      <created>1722864316390</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1722864316390</updated>
-    </task>
-    <task id="LOCAL-00048" summary="TIL : 절차 지향 프로그래밍1 - 시작">
-      <created>1722946845778</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1722946845779</updated>
-    </task>
-    <task id="LOCAL-00049" summary="TIL : 절차 지향 프로그래밍2 - 데이터 묶음">
-      <created>1722947186229</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1722947186229</updated>
-    </task>
-    <task id="LOCAL-00050" summary="TIL : 절차 지향 프로그래밍3 - 메서드 추출">
-      <created>1723041162340</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1723041162340</updated>
+      <workItem from="1725766819802" duration="4754000" />
+      <workItem from="1725885782014" duration="1256000" />
+      <workItem from="1725971545153" duration="696000" />
+      <workItem from="1726055931178" duration="849000" />
+      <workItem from="1726153011919" duration="117000" />
     </task>
     <task id="LOCAL-00051" summary="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드">
       <created>1723125467836</created>
@@ -560,7 +511,56 @@
       <option name="project" value="LOCAL" />
       <updated>1725766876628</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="TIL - static 문제와 풀이 1">
+      <created>1725767300450</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1725767300450</updated>
+    </task>
+    <task id="LOCAL-00094" summary="TIL - static 문제와 풀이 2">
+      <created>1725767312744</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1725767312744</updated>
+    </task>
+    <task id="LOCAL-00095" summary="TIL - static 변수와 메서드 정리">
+      <created>1725767326235</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1725767326235</updated>
+    </task>
+    <task id="LOCAL-00096" summary="TIL - final 변수와 참조">
+      <created>1725885828845</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1725885828845</updated>
+    </task>
+    <task id="LOCAL-00097" summary="TIL - final 변수와 상수 2">
+      <created>1725971588532</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1725971588533</updated>
+    </task>
+    <task id="LOCAL-00098" summary="TIL - final 변수와 참조">
+      <created>1726055951530</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1726055951531</updated>
+    </task>
+    <task id="LOCAL-00099" summary="TIL - final 문제풀이">
+      <created>1726153043842</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1726153043842</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,12 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 생성자 - 문제와 풀이" />
-    <MESSAGE value="TIL : 생성자 - 정리" />
-    <MESSAGE value="TIL : 패키지 import" />
-    <MESSAGE value="TIL : 패키지 시작" />
-    <MESSAGE value="TIL : 패키지 활용" />
-    <MESSAGE value="TIL : 패키지 정리" />
     <MESSAGE value="TIL : 접근제어자 시작" />
     <MESSAGE value="TIL : 접근 제어자 사용 - 필드, 메서드" />
     <MESSAGE value="TIL : 접근 제어자 사용 - 클래스 레벨" />
@@ -603,7 +597,13 @@
     <MESSAGE value=" TIl - statics method - 1" />
     <MESSAGE value=" TIl - statics method 정리" />
     <MESSAGE value="TIL - static method 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - static method 2" />
+    <MESSAGE value="TIL - static 문제와 풀이 1" />
+    <MESSAGE value="TIL - static 문제와 풀이 2" />
+    <MESSAGE value="TIL - static 변수와 메서드 정리" />
+    <MESSAGE value="TIL - final 변수와 상수 2" />
+    <MESSAGE value="TIL - final 변수와 참조" />
+    <MESSAGE value="TIL - final 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - final 문제풀이" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
