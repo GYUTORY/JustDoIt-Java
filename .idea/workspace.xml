@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - final 정리">
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/GasCar.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 상속 관게">
+      <change afterPath="$PROJECT_DIR$/img/extends/상속_메모리_구조.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/상속.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extends1/ex2/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extends1/ex2/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extends1/ex2/GasCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extends1/ex2/GasCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/PrimitiveReference&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/img/extends&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,20 +61,22 @@
       <recent name="static2.ex" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/extends" />
       <recent name="$PROJECT_DIR$/src/PrimitiveReference" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/extends1" />
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="extends1.ex2" />
       <recent name="final1" />
       <recent name="static2" />
       <recent name="access.b" />
       <recent name="pack" />
-      <recent name="pack.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarMain">
+  <component name="RunManager" selected="Application.extends1.ex2.CarMain">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extends1.ex1.CarMain" />
       <module name="JustDoIt-Java" />
@@ -88,19 +92,6 @@
     </configuration>
     <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="final1.ConstantMain1" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="final1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -138,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="extends1.ex2.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extends1.ex2.CarMain" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extends1.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.extends1.ex2.CarMain" />
         <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.MemberMain" />
         <item itemvalue="Application.FinalRefMain" />
         <item itemvalue="Application.ConstantMain1" />
-        <item itemvalue="Application.ConstantMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -218,28 +222,8 @@
       <workItem from="1726055931178" duration="849000" />
       <workItem from="1726153011919" duration="117000" />
       <workItem from="1726229832877" duration="19000" />
-      <workItem from="1726288286136" duration="1329000" />
-    </task>
-    <task id="LOCAL-00052" summary="TIL : 객체 지향 프로그래밍과 캡슐화">
-      <created>1723209917092</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1723209917092</updated>
-    </task>
-    <task id="LOCAL-00053" summary="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이">
-      <created>1723254083395</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1723254083395</updated>
-    </task>
-    <task id="LOCAL-00054" summary="TIL : 객체 지향 프로그래밍과 캡슐화 - 문제와 풀이2">
-      <created>1723254088695</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1723254088695</updated>
+      <workItem from="1726288286136" duration="2411000" />
+      <workItem from="1726298606460" duration="619000" />
     </task>
     <task id="LOCAL-00055" summary="TIL : 객체 지향 프로그래밍과 캡슐화 - 설명 추가">
       <created>1723254094763</created>
@@ -563,7 +547,28 @@
       <option name="project" value="LOCAL" />
       <updated>1726229842905</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="TIL - 상속 시작 1">
+      <created>1726297629621</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1726297629621</updated>
+    </task>
+    <task id="LOCAL-00102" summary="TIL - 상속 관셰">
+      <created>1726298169470</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1726298169470</updated>
+    </task>
+    <task id="LOCAL-00103" summary="TIL - 상속 관게">
+      <created>1726298407662</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1726298407662</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,9 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 접근 제어자 사용 - 필드, 메서드" />
-    <MESSAGE value="TIL : 접근 제어자 사용 - 클래스 레벨" />
-    <MESSAGE value="TIL : 접근 제어자에서의 캡슐화" />
     <MESSAGE value="TIL : 접근 제어자 정리" />
     <MESSAGE value="TIL : 접근 제어자 문제와 풀이 1" />
     <MESSAGE value="TIL : 접근 제어자 문제와 풀이 2" />
@@ -606,7 +608,10 @@
     <MESSAGE value="TIL - final 변수와 참조" />
     <MESSAGE value="TIL - final 문제풀이" />
     <MESSAGE value="TIL - final 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - final 정리" />
+    <MESSAGE value="TIL - 상속 시작 1" />
+    <MESSAGE value="TIL - 상속 관셰" />
+    <MESSAGE value="TIL - 상속 관게" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 상속 관게" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
