@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - final 문제풀이">
-      <change afterPath="$PROJECT_DIR$/src/final1/final 정리.md" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - final 정리">
+      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/GasCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,20 @@
       <recent name="pack.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberMain">
+  <component name="RunManager" selected="Application.CarMain">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extends1.ex1.CarMain" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extends1.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="final1.ConstantMain1" />
       <module name="JustDoIt-Java" />
@@ -87,19 +101,6 @@
     </configuration>
     <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="final1.ConstantMain2" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="final1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="final1.FinalFieldMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.MemberMain" />
         <item itemvalue="Application.FinalRefMain" />
         <item itemvalue="Application.ConstantMain1" />
         <item itemvalue="Application.ConstantMain2" />
-        <item itemvalue="Application.FinalFieldMain" />
       </list>
     </recent_temporary>
   </component>
@@ -216,13 +217,8 @@
       <workItem from="1725971545153" duration="696000" />
       <workItem from="1726055931178" duration="849000" />
       <workItem from="1726153011919" duration="117000" />
-    </task>
-    <task id="LOCAL-00051" summary="TIL : 절차 지향 프로그래밍3 - 클래스와 메서드">
-      <created>1723125467836</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1723125467836</updated>
+      <workItem from="1726229832877" duration="19000" />
+      <workItem from="1726288286136" duration="1329000" />
     </task>
     <task id="LOCAL-00052" summary="TIL : 객체 지향 프로그래밍과 캡슐화">
       <created>1723209917092</created>
@@ -560,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726153043842</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="TIL - final 정리">
+      <created>1726229842904</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1726229842905</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL : 접근제어자 시작" />
     <MESSAGE value="TIL : 접근 제어자 사용 - 필드, 메서드" />
     <MESSAGE value="TIL : 접근 제어자 사용 - 클래스 레벨" />
     <MESSAGE value="TIL : 접근 제어자에서의 캡슐화" />
@@ -603,7 +605,8 @@
     <MESSAGE value="TIL - final 변수와 상수 2" />
     <MESSAGE value="TIL - final 변수와 참조" />
     <MESSAGE value="TIL - final 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - final 문제풀이" />
+    <MESSAGE value="TIL - final 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - final 정리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
