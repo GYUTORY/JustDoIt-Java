@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 상속과 메서드 오버라이딩">
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/child/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/parent/Parent.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 상속 super 정리 추가">
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/Super2Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,27 +71,14 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="extends1.super2" />
       <recent name="extends1.ex2" />
       <recent name="final1" />
       <recent name="static2" />
       <recent name="access.b" />
-      <recent name="pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtendsAccessMain">
-    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.ex1.CarMain" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extends1.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Super2Main">
     <configuration name="ExtendsAccessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extends1.access.ExtendsAccessMain" />
       <module name="JustDoIt-Java" />
@@ -103,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="extends1.ex2.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.ex2.CarMain" />
+    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extends1.super2.Super2Main" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.ex2.*" />
+          <option name="PATTERN" value="extends1.super2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extends1.super1.SuperMain" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extends1.super1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Super2Main" />
+        <item itemvalue="Application.SuperMain" />
         <item itemvalue="Application.ExtendsAccessMain" />
         <item itemvalue="Application.extends1.overriding.CarMain" />
         <item itemvalue="Application.extends1.ex3.CarMain" />
-        <item itemvalue="Application.extends1.ex2.CarMain" />
-        <item itemvalue="Application.CarMain" />
       </list>
     </recent_temporary>
   </component>
@@ -225,28 +227,10 @@
       <workItem from="1726288286136" duration="2411000" />
       <workItem from="1726298606460" duration="1293000" />
       <workItem from="1726299904589" duration="1647000" />
-      <workItem from="1726408969309" duration="4490000" />
-    </task>
-    <task id="LOCAL-00063" summary="// TIL : 생성자">
-      <created>1723550618567</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1723550618567</updated>
-    </task>
-    <task id="LOCAL-00064" summary="// TIL : 생성자 - 오버로딩과 this()">
-      <created>1723550635712</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1723550635712</updated>
-    </task>
-    <task id="LOCAL-00065" summary="// TIL : 생성자 - 오버로딩과 this()">
-      <created>1723550653329</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1723550653329</updated>
+      <workItem from="1726408969309" duration="6016000" />
+      <workItem from="1726842550552" duration="1263000" />
+      <workItem from="1726926135775" duration="1153000" />
+      <workItem from="1726927294391" duration="329000" />
     </task>
     <task id="LOCAL-00066" summary="TIL : 생성자 - 문제와 풀이">
       <created>1723643127306</created>
@@ -570,7 +554,28 @@
       <option name="project" value="LOCAL" />
       <updated>1726666446740</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="TIL - 상속과 접근 제어 1">
+      <created>1726754317539</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1726754317539</updated>
+    </task>
+    <task id="LOCAL-00113" summary="TIL - super">
+      <created>1726842597949</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1726842597949</updated>
+    </task>
+    <task id="LOCAL-00114" summary="TIL - 상속 super 정리 추가">
+      <created>1726919363925</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1726919363925</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,10 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" TIl - statics 변수 2 - 1" />
-    <MESSAGE value=" TIl - statics 변수 2 - 2" />
-    <MESSAGE value=" TIl - statics 변수 2 - 3" />
-    <MESSAGE value=" TIl - statics 변수 2 - 4" />
     <MESSAGE value=" TIl - statics 변수 장리" />
     <MESSAGE value=" TIl - statics method - 1" />
     <MESSAGE value=" TIl - statics method 정리" />
@@ -613,7 +614,11 @@
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩 3" />
     <MESSAGE value="TIL - 상속 정리" />
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - 상속과 메서드 오버라이딩" />
+    <MESSAGE value="TIL - 상속과 접근 제어" />
+    <MESSAGE value="TIL - 상속과 접근 제어 1" />
+    <MESSAGE value="TIL - super" />
+    <MESSAGE value="TIL - 상속 super 정리 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 상속 super 정리 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
