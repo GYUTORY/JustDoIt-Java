@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) super - 메인에서 실행과정">
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/ShopMain.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) super 문제풀이 및 설명">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,21 +227,7 @@
       <workItem from="1726842550552" duration="1263000" />
       <workItem from="1726926135775" duration="1153000" />
       <workItem from="1726927294391" duration="1590000" />
-      <workItem from="1726928890120" duration="2085000" />
-    </task>
-    <task id="LOCAL-00068" summary="TIL : 패키지 시작">
-      <created>1723701642996</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1723701642996</updated>
-    </task>
-    <task id="LOCAL-00069" summary="TIL : 패키지 import">
-      <created>1723701656007</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1723701656007</updated>
+      <workItem from="1726928890120" duration="2792000" />
     </task>
     <task id="LOCAL-00070" summary="TIL : 패키지 시작">
       <created>1723701705928</created>
@@ -577,7 +558,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726927763526</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="TIL) super 문제풀이">
+      <created>1726931007648</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1726931007648</updated>
+    </task>
+    <task id="LOCAL-00118" summary="TIL) super 문제풀이 및 설명">
+      <created>1726931019369</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1726931019369</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,8 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" TIl - statics method 정리" />
-    <MESSAGE value="TIL - static method 2" />
     <MESSAGE value="TIL - static 문제와 풀이 1" />
     <MESSAGE value="TIL - static 문제와 풀이 2" />
     <MESSAGE value="TIL - static 변수와 메서드 정리" />
@@ -620,7 +613,9 @@
     <MESSAGE value="TIL - 상속 super 정리 추가" />
     <MESSAGE value="TIL) super - 생성자" />
     <MESSAGE value="TIL) super - 메인에서 실행과정" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL) super - 메인에서 실행과정" />
+    <MESSAGE value="TIL) super 문제풀이" />
+    <MESSAGE value="TIL) super 문제풀이 및 설명" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL) super 문제풀이 및 설명" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
