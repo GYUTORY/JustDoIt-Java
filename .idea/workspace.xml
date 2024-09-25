@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="상속 마무리">
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/Parent.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다형성 시작2">
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +75,13 @@
       <recent name="access.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PolyMain">
-    <configuration name="ExtendsAccessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.access.ExtendsAccessMain" />
+  <component name="RunManager" selected="Application.CastingMain1">
+    <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.access.*" />
+          <option name="PATTERN" value="poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CastingMain1" />
         <item itemvalue="Application.PolyMain" />
         <item itemvalue="Application.ShopMain" />
         <item itemvalue="Application.Super2Main" />
         <item itemvalue="Application.SuperMain" />
-        <item itemvalue="Application.ExtendsAccessMain" />
       </list>
     </recent_temporary>
   </component>
@@ -230,21 +230,7 @@
       <workItem from="1726927294391" duration="1590000" />
       <workItem from="1726928890120" duration="2792000" />
       <workItem from="1727098588046" duration="708000" />
-      <workItem from="1727183674651" duration="463000" />
-    </task>
-    <task id="LOCAL-00071" summary="TIL : 패키지 활용">
-      <created>1723701837287</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1723701837287</updated>
-    </task>
-    <task id="LOCAL-00072" summary="TIL : 패키지 정리">
-      <created>1723802741552</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1723802741552</updated>
+      <workItem from="1727183674651" duration="2389000" />
     </task>
     <task id="LOCAL-00073" summary="TIL : 접근제어자 시작">
       <created>1723862889585</created>
@@ -575,7 +561,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727098685023</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="TIL - 다형성 시작1">
+      <created>1727184313721</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1727184313721</updated>
+    </task>
+    <task id="LOCAL-00121" summary="TIL - 다형성 시작2">
+      <created>1727185274101</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1727185274101</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,8 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - static 문제와 풀이 2" />
-    <MESSAGE value="TIL - static 변수와 메서드 정리" />
     <MESSAGE value="TIL - final 변수와 상수 2" />
     <MESSAGE value="TIL - final 변수와 참조" />
     <MESSAGE value="TIL - final 문제풀이" />
@@ -618,7 +616,9 @@
     <MESSAGE value="TIL) super 문제풀이" />
     <MESSAGE value="TIL) super 문제풀이 및 설명" />
     <MESSAGE value="상속 마무리" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속 마무리" />
+    <MESSAGE value="TIL - 다형성 시작1" />
+    <MESSAGE value="TIL - 다형성 시작2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다형성 시작2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
