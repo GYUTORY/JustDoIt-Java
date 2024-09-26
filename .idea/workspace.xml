@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다형성 시작2">
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain1.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다형성 시작3 (다운 캐스팅)">
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,9 +75,22 @@
       <recent name="access.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CastingMain1">
+  <component name="RunManager" selected="Application.CastingMain2">
     <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain1" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -128,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.super1.SuperMain" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extends1.super1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CastingMain2" />
         <item itemvalue="Application.CastingMain1" />
         <item itemvalue="Application.PolyMain" />
         <item itemvalue="Application.ShopMain" />
         <item itemvalue="Application.Super2Main" />
-        <item itemvalue="Application.SuperMain" />
       </list>
     </recent_temporary>
   </component>
@@ -230,14 +230,8 @@
       <workItem from="1726927294391" duration="1590000" />
       <workItem from="1726928890120" duration="2792000" />
       <workItem from="1727098588046" duration="708000" />
-      <workItem from="1727183674651" duration="2389000" />
-    </task>
-    <task id="LOCAL-00073" summary="TIL : 접근제어자 시작">
-      <created>1723862889585</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1723862889586</updated>
+      <workItem from="1727183674651" duration="2459000" />
+      <workItem from="1727351264291" duration="686000" />
     </task>
     <task id="LOCAL-00074" summary="TIL : 접근 제어자 사용 - 필드, 메서드">
       <created>1723950601806</created>
@@ -575,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727185274101</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="TIL - 다형성 시작3 (다운 캐스팅)">
+      <created>1727274926474</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1727274926474</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - final 변수와 상수 2" />
     <MESSAGE value="TIL - final 변수와 참조" />
     <MESSAGE value="TIL - final 문제풀이" />
     <MESSAGE value="TIL - final 정리" />
@@ -618,7 +618,8 @@
     <MESSAGE value="상속 마무리" />
     <MESSAGE value="TIL - 다형성 시작1" />
     <MESSAGE value="TIL - 다형성 시작2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다형성 시작2" />
+    <MESSAGE value="TIL - 다형성 시작3 (다운 캐스팅)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다형성 시작3 (다운 캐스팅)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
