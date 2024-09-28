@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 디형성과 캐스팅 정리">
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain4.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다운캐스팅과 주의점 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poly/basic/다형성과 캐스팅.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/basic/다형성과 캐스팅.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,14 +233,7 @@
       <workItem from="1727183674651" duration="2459000" />
       <workItem from="1727351264291" duration="888000" />
       <workItem from="1727354667423" duration="3094000" />
-      <workItem from="1727533388836" duration="615000" />
-    </task>
-    <task id="LOCAL-00077" summary="TIL : 접근 제어자 정리">
-      <created>1724331470615</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1724331470616</updated>
+      <workItem from="1727533388836" duration="1221000" />
     </task>
     <task id="LOCAL-00078" summary="TIL : 접근 제어자 문제와 풀이 1">
       <created>1724492858954</created>
@@ -578,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727444884696</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="TIL - 다운캐스팅과 주의점 1">
+      <created>1727534371481</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1727534371481</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 상속 시작 1" />
     <MESSAGE value="TIL - 상속 관셰" />
     <MESSAGE value="TIL - 상속 관게" />
     <MESSAGE value="TIL - 상속과 메모리 구조" />
@@ -621,7 +620,8 @@
     <MESSAGE value="TIL - 일시적 다운캐스팅" />
     <MESSAGE value="TIL - 업캐스팅" />
     <MESSAGE value="TIL - 디형성과 캐스팅 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - 디형성과 캐스팅 정리" />
+    <MESSAGE value="TIL - 다운캐스팅과 주의점 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다운캐스팅과 주의점 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
