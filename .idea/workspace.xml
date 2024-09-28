@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 일시적 다운캐스팅" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 디형성과 캐스팅 정리">
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +75,7 @@
       <recent name="access.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CastingMain3">
+  <component name="RunManager" selected="Application.CastingMain4">
     <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain1" />
       <module name="JustDoIt-Java" />
@@ -112,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CastingMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain4" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.PolyMain" />
       <module name="JustDoIt-Java" />
@@ -125,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.ex.ShopMain" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extends1.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CastingMain4" />
         <item itemvalue="Application.CastingMain3" />
         <item itemvalue="Application.CastingMain2" />
         <item itemvalue="Application.CastingMain1" />
         <item itemvalue="Application.PolyMain" />
-        <item itemvalue="Application.ShopMain" />
       </list>
     </recent_temporary>
   </component>
@@ -229,20 +232,8 @@
       <workItem from="1727098588046" duration="708000" />
       <workItem from="1727183674651" duration="2459000" />
       <workItem from="1727351264291" duration="888000" />
-    </task>
-    <task id="LOCAL-00075" summary="TIL : 접근 제어자 사용 - 클래스 레벨">
-      <created>1724073744426</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1724073744426</updated>
-    </task>
-    <task id="LOCAL-00076" summary="TIL : 접근 제어자에서의 캡슐화">
-      <created>1724246568150</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1724246568151</updated>
+      <workItem from="1727354667423" duration="3094000" />
+      <workItem from="1727533388836" duration="615000" />
     </task>
     <task id="LOCAL-00077" summary="TIL : 접근 제어자 정리">
       <created>1724331470615</created>
@@ -573,7 +564,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727354526039</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="TIL - 업캐스팅">
+      <created>1727354960508</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1727354960508</updated>
+    </task>
+    <task id="LOCAL-00125" summary="TIL - 디형성과 캐스팅 정리">
+      <created>1727444884696</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1727444884696</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - final 문제풀이" />
-    <MESSAGE value="TIL - final 정리" />
     <MESSAGE value="TIL - 상속 시작 1" />
     <MESSAGE value="TIL - 상속 관셰" />
     <MESSAGE value="TIL - 상속 관게" />
@@ -616,7 +619,9 @@
     <MESSAGE value="TIL - 다형성 시작2" />
     <MESSAGE value="TIL - 다형성 시작3 (다운 캐스팅)" />
     <MESSAGE value="TIL - 일시적 다운캐스팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - 일시적 다운캐스팅" />
+    <MESSAGE value="TIL - 업캐스팅" />
+    <MESSAGE value="TIL - 디형성과 캐스팅 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 디형성과 캐스팅 정리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
