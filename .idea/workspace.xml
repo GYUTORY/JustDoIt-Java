@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다운캐스팅과 주의점 1">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다운캐스팅과 주의점 2">
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poly/basic/다형성과 캐스팅.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/basic/다형성과 캐스팅.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="access.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CastingMain4">
+  <component name="RunManager" selected="Application.CastingMain5">
     <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain1" />
       <module name="JustDoIt-Java" />
@@ -128,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.basic.PolyMain" />
+    <configuration name="CastingMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain5" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CastingMain5" />
         <item itemvalue="Application.CastingMain4" />
         <item itemvalue="Application.CastingMain3" />
         <item itemvalue="Application.CastingMain2" />
         <item itemvalue="Application.CastingMain1" />
-        <item itemvalue="Application.PolyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -233,14 +233,8 @@
       <workItem from="1727183674651" duration="2459000" />
       <workItem from="1727351264291" duration="888000" />
       <workItem from="1727354667423" duration="3094000" />
-      <workItem from="1727533388836" duration="1221000" />
-    </task>
-    <task id="LOCAL-00078" summary="TIL : 접근 제어자 문제와 풀이 1">
-      <created>1724492858954</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1724492858954</updated>
+      <workItem from="1727533388836" duration="1355000" />
+      <workItem from="1727590279175" duration="988000" />
     </task>
     <task id="LOCAL-00079" summary="TIL : 접근 제어자 문제와 풀이 2">
       <created>1724492866043</created>
@@ -578,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727534371481</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="TIL - 다운캐스팅과 주의점 2">
+      <created>1727534649726</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1727534649726</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 상속 관셰" />
     <MESSAGE value="TIL - 상속 관게" />
     <MESSAGE value="TIL - 상속과 메모리 구조" />
     <MESSAGE value="TIL - 상속과 기능 추가" />
@@ -621,10 +621,16 @@
     <MESSAGE value="TIL - 업캐스팅" />
     <MESSAGE value="TIL - 디형성과 캐스팅 정리" />
     <MESSAGE value="TIL - 다운캐스팅과 주의점 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다운캐스팅과 주의점 1" />
+    <MESSAGE value="TIL - 다운캐스팅과 주의점 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다운캐스팅과 주의점 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JustDoIt_Java$CastingMain4.ic" NAME="CastingMain4 Coverage Results" MODIFIED="1727534634185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>poly.basic.*</FILTER>
+    </SUITE>
   </component>
 </project>
