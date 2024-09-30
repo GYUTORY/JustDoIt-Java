@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - instanceof">
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain6.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - instanceof 2">
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/OverridingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,31 +35,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/extends1/overriding&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/poly/overriding",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="static2.ex" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/poly/overriding" />
       <recent name="$PROJECT_DIR$/src/extends1/overriding" />
       <recent name="$PROJECT_DIR$/src/extends1/ex3" />
       <recent name="$PROJECT_DIR$/img/extends" />
@@ -75,20 +78,7 @@
       <recent name="access.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CastingMain6">
-    <configuration name="CastingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain2" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poly.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OverridingMain">
     <configuration name="CastingMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain3" />
       <module name="JustDoIt-Java" />
@@ -141,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.overriding.OverridingMain" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.overriding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverridingMain" />
         <item itemvalue="Application.CastingMain6" />
         <item itemvalue="Application.CastingMain5" />
         <item itemvalue="Application.CastingMain4" />
         <item itemvalue="Application.CastingMain3" />
-        <item itemvalue="Application.CastingMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -234,14 +237,7 @@
       <workItem from="1727351264291" duration="888000" />
       <workItem from="1727354667423" duration="3094000" />
       <workItem from="1727533388836" duration="1355000" />
-      <workItem from="1727590279175" duration="1976000" />
-    </task>
-    <task id="LOCAL-00080" summary="TIL : 스택 영역">
-      <created>1724768679446</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1724768679447</updated>
+      <workItem from="1727590279175" duration="3718000" />
     </task>
     <task id="LOCAL-00081" summary="TIL : 스택 영역과 힙 영역 1">
       <created>1724850496942</created>
@@ -579,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727592450329</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="TIL - instanceof 2">
+      <created>1727594505365</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1727594505365</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 상속과 메모리 구조" />
     <MESSAGE value="TIL - 상속과 기능 추가" />
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩 1" />
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩 2" />
@@ -622,7 +624,8 @@
     <MESSAGE value="TIL - 다운캐스팅과 주의점 1" />
     <MESSAGE value="TIL - 다운캐스팅과 주의점 2" />
     <MESSAGE value="TIL - instanceof" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - instanceof" />
+    <MESSAGE value="TIL - instanceof 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - instanceof 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
