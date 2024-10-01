@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - instanceof 2">
-      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/overriding/OverridingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Parent.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 다형성과 메서드 오버라이딩">
+      <change afterPath="$PROJECT_DIR$/src/poly/ex1/AnimalSoundMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Caw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,26 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/poly/overriding",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/poly/overriding&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="static2.ex" />
@@ -78,13 +79,13 @@
       <recent name="access.b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OverridingMain">
-    <configuration name="CastingMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain3" />
+  <component name="RunManager" selected="Application.AnimalSoundMain">
+    <configuration name="AnimalSoundMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.ex1.AnimalSoundMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.basic.*" />
+          <option name="PATTERN" value="poly.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalSoundMain" />
         <item itemvalue="Application.OverridingMain" />
         <item itemvalue="Application.CastingMain6" />
         <item itemvalue="Application.CastingMain5" />
         <item itemvalue="Application.CastingMain4" />
-        <item itemvalue="Application.CastingMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -237,14 +238,8 @@
       <workItem from="1727351264291" duration="888000" />
       <workItem from="1727354667423" duration="3094000" />
       <workItem from="1727533388836" duration="1355000" />
-      <workItem from="1727590279175" duration="3718000" />
-    </task>
-    <task id="LOCAL-00081" summary="TIL : 스택 영역과 힙 영역 1">
-      <created>1724850496942</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1724850496942</updated>
+      <workItem from="1727590279175" duration="3816000" />
+      <workItem from="1727709944626" duration="1996000" />
     </task>
     <task id="LOCAL-00082" summary="TIL : 스택 영역과 힙 영역 2">
       <created>1724850503611</created>
@@ -582,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727594505365</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="TIL - 다형성과 메서드 오버라이딩">
+      <created>1727709853682</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1727709853682</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 상속과 기능 추가" />
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩 1" />
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩 2" />
     <MESSAGE value="TIL - 상속과 메서드 오버라이딩 3" />
@@ -625,7 +626,8 @@
     <MESSAGE value="TIL - 다운캐스팅과 주의점 2" />
     <MESSAGE value="TIL - instanceof" />
     <MESSAGE value="TIL - instanceof 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - instanceof 2" />
+    <MESSAGE value="TIL - 다형성과 메서드 오버라이딩" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 다형성과 메서드 오버라이딩" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
