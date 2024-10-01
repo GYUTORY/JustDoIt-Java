@@ -10,12 +10,22 @@ public class AnimalSoundMain {
         dog.sound();
         System.out.println("동물 소리 테스트 종료");
 
-        System.out.println("동물 소리 테스트 시작");
-        cat.sound();
-        System.out.println("동물 소리 테스트 종료");
+        soundCat(cat);
+        soundCaw(caw);
 
+    }
+
+
+    //  static 사유 : 해당 메서드가 AnimalSoundMain 클래스의 인스턴스(객체)를 생성하지 않고도 호출될 수 있도록 하기 위함입니다.
+    private static void soundCaw(Caw caw) {
         System.out.println("동물 소리 테스트 시작");
         caw.sound();
+        System.out.println("동물 소리 테스트 종료");
+    }
+
+    private static void soundCat(Cat cat) {
+        System.out.println("동물 소리 테스트 시작");
+        cat.sound();
         System.out.println("동물 소리 테스트 종료");
     }
 }
