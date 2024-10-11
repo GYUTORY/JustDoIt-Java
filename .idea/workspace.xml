@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 클래스와 인터페이스 활용">
-      <change afterPath="$PROJECT_DIR$/src/poly/car0/CarMain0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/car0/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/car0/K3Car.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) 다형성 - 역할과 구현 예제1">
+      <change afterPath="$PROJECT_DIR$/src/poly/car0/Model3Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poly/car0/CarMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/car0/CarMain0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poly/car0/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/car0/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +77,11 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poly.car0" />
       <recent name="poly.diamond" />
       <recent name="poly.ex3" />
       <recent name="poly.ex2" />
       <recent name="extends1.super2" />
-      <recent name="extends1.ex2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CarMain0">
@@ -250,14 +250,8 @@
       <workItem from="1728137988232" duration="4256000" />
       <workItem from="1728398641224" duration="337000" />
       <workItem from="1728472169473" duration="2194000" />
-      <workItem from="1728561403517" duration="1612000" />
-    </task>
-    <task id="LOCAL-00093" summary="TIL - static 문제와 풀이 1">
-      <created>1725767300450</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1725767300450</updated>
+      <workItem from="1728561403517" duration="2797000" />
+      <workItem from="1728649799707" duration="321000" />
     </task>
     <task id="LOCAL-00094" summary="TIL - static 문제와 풀이 2">
       <created>1725767312744</created>
@@ -595,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728473758971</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="TIL) 다형성 - 역할과 구현 예제1">
+      <created>1728565271879</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1728565271879</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL) super 문제풀이" />
     <MESSAGE value="TIL) super 문제풀이 및 설명" />
     <MESSAGE value="상속 마무리" />
     <MESSAGE value="TIL - 다형성 시작1" />
@@ -638,7 +638,8 @@
     <MESSAGE value="TIL - 인터페이스 다중 상속" />
     <MESSAGE value="TIL - 인터페이스 정리" />
     <MESSAGE value="TIL - 클래스와 인터페이스 활용" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - 클래스와 인터페이스 활용" />
+    <MESSAGE value="TIL) 다형성 - 역할과 구현 예제1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL) 다형성 - 역할과 구현 예제1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
