@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) 다형성 - 역할과 구현 예제1">
-      <change afterPath="$PROJECT_DIR$/src/poly/car0/Model3Car.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) 다형성 - 역할과 구현 예제2">
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/K3Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/Model3Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poly/car0/CarMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/car0/CarMain0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poly/car0/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/car0/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,14 +78,14 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poly.car1" />
       <recent name="poly.car0" />
       <recent name="poly.diamond" />
       <recent name="poly.ex3" />
       <recent name="poly.ex2" />
-      <recent name="extends1.super2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarMain0">
+  <component name="RunManager" selected="Application.CarMain1">
     <configuration name="CarMain0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.car0.CarMain0" />
       <module name="JustDoIt-Java" />
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.diamond.DiamondMain" />
+    <configuration name="CarMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.car1.CarMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.diamond.*" />
+          <option name="PATTERN" value="poly.car1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarMain1" />
         <item itemvalue="Application.CarMain0" />
         <item itemvalue="Application.SoundFlyMain" />
         <item itemvalue="Application.poly.ex4.AbstractMain" />
         <item itemvalue="Application.InterfaceMain" />
-        <item itemvalue="Application.DiamondMain" />
       </list>
     </recent_temporary>
   </component>
@@ -251,14 +252,8 @@
       <workItem from="1728398641224" duration="337000" />
       <workItem from="1728472169473" duration="2194000" />
       <workItem from="1728561403517" duration="2797000" />
-      <workItem from="1728649799707" duration="321000" />
-    </task>
-    <task id="LOCAL-00094" summary="TIL - static 문제와 풀이 2">
-      <created>1725767312744</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1725767312744</updated>
+      <workItem from="1728649799707" duration="411000" />
+      <workItem from="1728651700155" duration="1380000" />
     </task>
     <task id="LOCAL-00095" summary="TIL - static 변수와 메서드 정리">
       <created>1725767326235</created>
@@ -596,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728565271879</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="TIL) 다형성 - 역할과 구현 예제2">
+      <created>1728651100301</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1728651100302</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL) super 문제풀이 및 설명" />
     <MESSAGE value="상속 마무리" />
     <MESSAGE value="TIL - 다형성 시작1" />
     <MESSAGE value="TIL - 다형성 시작2" />
@@ -639,7 +640,8 @@
     <MESSAGE value="TIL - 인터페이스 정리" />
     <MESSAGE value="TIL - 클래스와 인터페이스 활용" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL) 다형성 - 역할과 구현 예제1" />
+    <MESSAGE value="TIL) 다형성 - 역할과 구현 예제2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL) 다형성 - 역할과 구현 예제2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

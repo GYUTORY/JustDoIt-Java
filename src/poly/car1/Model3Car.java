@@ -1,20 +1,20 @@
 package poly.car1;
 
-public class K3Car implements Car {
+public class Model3Car implements Car {
 
     @Override
     public void startEngine() {
-        System.out.println("K3Car.startEngine");
+        System.out.println("Model3Car.startEngine");
     }
 
     @Override
     public void offEngine() {
-        System.out.println("K3Car.offEngine");
+        System.out.println("Model3Car.offEngine");
     }
 
     @Override
     public void pressAccelerator() {
-        System.out.println("K3Car.pressAccelerator");
+        System.out.println("Model3Car.pressAccelerator");
     }
 
 
