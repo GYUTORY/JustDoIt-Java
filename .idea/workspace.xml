@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) 다형성 - 역할과 구현 예제3">
-      <change afterPath="$PROJECT_DIR$/src/poly/car1/NewCar.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) Java - Object(toString())">
+      <change afterPath="$PROJECT_DIR$/src/Java-Mid/Object 클래스.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equals/EqualsMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equals/EqualsMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equals/UserV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equals/UserV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poly/car1/CarMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/car1/CarMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poly/추상 클래스.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/poly/추상 클래스.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/ex/ProductAdminEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ex/ProductAdminEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/poly/ex5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,31 +69,31 @@
       <recent name="static2.ex" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/poly/ex/pay1" />
+      <recent name="$PROJECT_DIR$/src/poly/ex" />
       <recent name="$PROJECT_DIR$/src/poly/ex5" />
       <recent name="$PROJECT_DIR$/src/poly/ex4" />
-      <recent name="$PROJECT_DIR$/src/poly/overriding" />
-      <recent name="$PROJECT_DIR$/src/extends1/overriding" />
-      <recent name="$PROJECT_DIR$/src/extends1/ex3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/extends1" />
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="equals" />
+      <recent name="lang.object.tostring" />
+      <recent name="poly.ex.pay1" />
+      <recent name="poly.ex" />
       <recent name="poly.car1" />
-      <recent name="poly.car0" />
-      <recent name="poly.diamond" />
-      <recent name="poly.ex3" />
-      <recent name="poly.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarMain1">
-    <configuration name="CarMain0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.car0.CarMain0" />
+  <component name="RunManager" selected="Application.EqualsMainV2">
+    <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="equals.EqualsMainV1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.car0.*" />
+          <option name="PATTERN" value="equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.car1.CarMain1" />
+    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="equals.EqualsMainV2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.car1.*" />
+          <option name="PATTERN" value="equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex5.InterfaceMain" />
+    <configuration name="ObjectPolyExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.object.poly.ObjectPolyExample2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex5.*" />
+          <option name="PATTERN" value="lang.object.poly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoundFlyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex6.SoundFlyMain" />
+    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.object.tostring.ToStringMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex6.*" />
+          <option name="PATTERN" value="lang.object.tostring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="poly.ex4.AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex4.AbstractMain" />
+    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.object.tostring.ToStringMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex4.*" />
+          <option name="PATTERN" value="lang.object.tostring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarMain1" />
-        <item itemvalue="Application.CarMain0" />
-        <item itemvalue="Application.SoundFlyMain" />
-        <item itemvalue="Application.poly.ex4.AbstractMain" />
-        <item itemvalue="Application.InterfaceMain" />
+        <item itemvalue="Application.EqualsMainV2" />
+        <item itemvalue="Application.EqualsMainV1" />
+        <item itemvalue="Application.ToStringMain2" />
+        <item itemvalue="Application.ToStringMain1" />
+        <item itemvalue="Application.ObjectPolyExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -252,77 +255,11 @@
       <workItem from="1728472169473" duration="2194000" />
       <workItem from="1728561403517" duration="2797000" />
       <workItem from="1728649799707" duration="411000" />
-      <workItem from="1728651700155" duration="2207000" />
-    </task>
-    <task id="LOCAL-00096" summary="TIL - final 변수와 참조">
-      <created>1725885828845</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1725885828845</updated>
-    </task>
-    <task id="LOCAL-00097" summary="TIL - final 변수와 상수 2">
-      <created>1725971588532</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1725971588533</updated>
-    </task>
-    <task id="LOCAL-00098" summary="TIL - final 변수와 참조">
-      <created>1726055951530</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1726055951531</updated>
-    </task>
-    <task id="LOCAL-00099" summary="TIL - final 문제풀이">
-      <created>1726153043842</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1726153043842</updated>
-    </task>
-    <task id="LOCAL-00100" summary="TIL - final 정리">
-      <created>1726229842904</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1726229842905</updated>
-    </task>
-    <task id="LOCAL-00101" summary="TIL - 상속 시작 1">
-      <created>1726297629621</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1726297629621</updated>
-    </task>
-    <task id="LOCAL-00102" summary="TIL - 상속 관셰">
-      <created>1726298169470</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1726298169470</updated>
-    </task>
-    <task id="LOCAL-00103" summary="TIL - 상속 관게">
-      <created>1726298407662</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1726298407662</updated>
-    </task>
-    <task id="LOCAL-00104" summary="TIL - 상속과 메모리 구조">
-      <created>1726299256593</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1726299256593</updated>
-    </task>
-    <task id="LOCAL-00105" summary="TIL - 상속과 메모리 구조">
-      <created>1726299259634</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1726299259634</updated>
+      <workItem from="1728651700155" duration="9377000" />
+      <workItem from="1728910509306" duration="2876000" />
+      <workItem from="1729001330766" duration="1351000" />
+      <workItem from="1729088112447" duration="1018000" />
+      <workItem from="1729166364714" duration="3524000" />
     </task>
     <task id="LOCAL-00106" summary="TIL - 상속과 기능 추가">
       <created>1726408999024</created>
@@ -597,7 +534,77 @@
       <option name="project" value="LOCAL" />
       <updated>1728801083179</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="TIL) 다형성 - OCP(Open-Closed Principle) 원칙">
+      <created>1728801821305</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1728801821305</updated>
+    </task>
+    <task id="LOCAL-00146" summary="TIL) 기본형 참조형 오타 수정">
+      <created>1728814419799</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1728814419799</updated>
+    </task>
+    <task id="LOCAL-00147" summary="TIL) Java MID - Start">
+      <created>1728910659108</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1728910659108</updated>
+    </task>
+    <task id="LOCAL-00148" summary="TIL) Java - OCP 문제풀이 1">
+      <created>1728910903036</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1728910903036</updated>
+    </task>
+    <task id="LOCAL-00149" summary="TIL) Java - OCP 문제풀이 2">
+      <created>1728910917900</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1728910917900</updated>
+    </task>
+    <task id="LOCAL-00150" summary="TIL) Java - OCP 문제풀이 Fin.">
+      <created>1729001355837</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1729001355838</updated>
+    </task>
+    <task id="LOCAL-00151" summary="TIL) Java - Object 다형성">
+      <created>1729001598789</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1729001598789</updated>
+    </task>
+    <task id="LOCAL-00152" summary="TIL) Java - Object 다형성">
+      <created>1729088259405</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1729088259405</updated>
+    </task>
+    <task id="LOCAL-00153" summary="TIL) Java - Object">
+      <created>1729088284193</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1729088284193</updated>
+    </task>
+    <task id="LOCAL-00154" summary="TIL) Java - Object(toString())">
+      <created>1729166499842</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1729166499842</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,15 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 다형성 시작1" />
-    <MESSAGE value="TIL - 다형성 시작2" />
-    <MESSAGE value="TIL - 다형성 시작3 (다운 캐스팅)" />
-    <MESSAGE value="TIL - 일시적 다운캐스팅" />
-    <MESSAGE value="TIL - 업캐스팅" />
-    <MESSAGE value="TIL - 디형성과 캐스팅 정리" />
-    <MESSAGE value="TIL - 다운캐스팅과 주의점 1" />
-    <MESSAGE value="TIL - 다운캐스팅과 주의점 2" />
-    <MESSAGE value="TIL - instanceof" />
     <MESSAGE value="TIL - instanceof 2" />
     <MESSAGE value="TIL - 다형성과 메서드 오버라이딩" />
     <MESSAGE value="TIL - 다형성 활용 1" />
@@ -640,7 +638,16 @@
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제1" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제2" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제3" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL) 다형성 - 역할과 구현 예제3" />
+    <MESSAGE value="TIL) 다형성 - OCP(Open-Closed Principle) 원칙" />
+    <MESSAGE value="TIL) 기본형 참조형 오타 수정" />
+    <MESSAGE value="TIL) Java MID - Start" />
+    <MESSAGE value="TIL) Java - OCP 문제풀이 1" />
+    <MESSAGE value="TIL) Java - OCP 문제풀이 2" />
+    <MESSAGE value="TIL) Java - OCP 문제풀이 Fin." />
+    <MESSAGE value="TIL) Java - Object 다형성" />
+    <MESSAGE value="TIL) Java - Object" />
+    <MESSAGE value="TIL) Java - Object(toString())" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL) Java - Object(toString())" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
