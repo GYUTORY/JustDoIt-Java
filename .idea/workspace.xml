@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) Java - Object 정리">
-      <change afterPath="$PROJECT_DIR$/src/lang/object/test/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/object/test/RectangleMain.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) Java - Object 문제풀이">
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/PrimitiveMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <recent name="poly.car1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RectangleMain">
+  <component name="RunManager" selected="Application.RefMain_1">
     <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="equals.EqualsMainV1" />
       <module name="JustDoIt-Java" />
@@ -110,6 +111,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimitiveMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.PrimitiveMain" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RectangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.object.test.RectangleMain" />
       <module name="JustDoIt-Java" />
@@ -123,25 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.tostring.ToStringMain1" />
+    <configuration name="RefMain_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain_1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.tostring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.tostring.ToStringMain2" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lang.object.tostring.*" />
+          <option name="PATTERN" value="lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RefMain_1" />
+        <item itemvalue="Application.PrimitiveMain" />
         <item itemvalue="Application.RectangleMain" />
         <item itemvalue="Application.EqualsMainV2" />
         <item itemvalue="Application.EqualsMainV1" />
-        <item itemvalue="Application.ToStringMain2" />
-        <item itemvalue="Application.ToStringMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -256,14 +257,7 @@
       <workItem from="1729001330766" duration="1351000" />
       <workItem from="1729088112447" duration="1018000" />
       <workItem from="1729166364714" duration="3524000" />
-      <workItem from="1729262885575" duration="986000" />
-    </task>
-    <task id="LOCAL-00108" summary="TIL - 상속과 메서드 오버라이딩 2">
-      <created>1726451395204</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1726451395204</updated>
+      <workItem from="1729262885575" duration="3927000" />
     </task>
     <task id="LOCAL-00109" summary="TIL - 상속과 메서드 오버라이딩 3">
       <created>1726451400381</created>
@@ -601,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729342837818</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="TIL) Java - Object 문제풀이">
+      <created>1729343371521</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1729343371521</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 다형성 활용 1" />
     <MESSAGE value="TIL - 다형성 활용 1 - 2" />
     <MESSAGE value="TIL - 다형성 활용 2" />
     <MESSAGE value="TIL - 다형성 활용 3" />
@@ -644,7 +644,8 @@
     <MESSAGE value="TIL) Java - Object(toString())" />
     <MESSAGE value="TIL) Java - Object(equals())" />
     <MESSAGE value="TIL) Java - Object 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL) Java - Object 정리" />
+    <MESSAGE value="TIL) Java - Object 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL) Java - Object 문제풀이" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
