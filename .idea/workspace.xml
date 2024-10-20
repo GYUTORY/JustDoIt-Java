@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) Java - Object 문제풀이">
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/PrimitiveMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain_1.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) Java - 기본형과 참조형의 공유">
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,20 +83,7 @@
       <recent name="poly.car1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RefMain_1">
-    <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equals.EqualsMainV1" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="equals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RefMain_2">
     <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="equals.EqualsMainV2" />
       <module name="JustDoIt-Java" />
@@ -150,13 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RefMain_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain_2" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RefMain_2" />
         <item itemvalue="Application.RefMain_1" />
         <item itemvalue="Application.PrimitiveMain" />
         <item itemvalue="Application.RectangleMain" />
         <item itemvalue="Application.EqualsMainV2" />
-        <item itemvalue="Application.EqualsMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -257,14 +256,8 @@
       <workItem from="1729001330766" duration="1351000" />
       <workItem from="1729088112447" duration="1018000" />
       <workItem from="1729166364714" duration="3524000" />
-      <workItem from="1729262885575" duration="3927000" />
-    </task>
-    <task id="LOCAL-00109" summary="TIL - 상속과 메서드 오버라이딩 3">
-      <created>1726451400381</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1726451400381</updated>
+      <workItem from="1729262885575" duration="5306000" />
+      <workItem from="1729412936657" duration="356000" />
     </task>
     <task id="LOCAL-00110" summary="TIL - 상속 정리">
       <created>1726552602635</created>
@@ -602,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729343371521</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="TIL) Java - 기본형과 참조형의 공유">
+      <created>1729350276580</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1729350276580</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 다형성 활용 1 - 2" />
     <MESSAGE value="TIL - 다형성 활용 2" />
     <MESSAGE value="TIL - 다형성 활용 3" />
     <MESSAGE value="TIL - 추상클래스" />
@@ -645,7 +644,8 @@
     <MESSAGE value="TIL) Java - Object(equals())" />
     <MESSAGE value="TIL) Java - Object 정리" />
     <MESSAGE value="TIL) Java - Object 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL) Java - Object 문제풀이" />
+    <MESSAGE value="TIL) Java - 기본형과 참조형의 공유" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL) Java - 기본형과 참조형의 공유" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
