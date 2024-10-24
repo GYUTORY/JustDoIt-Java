@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL) Java - 기본형과 참조형의 공유">
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain_2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - 불변객체 문제와 풀이">
+      <change afterPath="$PROJECT_DIR$/src/lang/string/CharArrayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/StringBasicMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,20 +76,20 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.immutable.change" />
+      <recent name="lang.immutable.address" />
       <recent name="equals" />
       <recent name="lang.object.tostring" />
       <recent name="poly.ex.pay1" />
-      <recent name="poly.ex" />
-      <recent name="poly.car1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RefMain_2">
-    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equals.EqualsMainV2" />
+  <component name="RunManager" selected="Application.StringBasicMain">
+    <configuration name="CharArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.CharArrayMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="equals.*" />
+          <option name="PATTERN" value="lang.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.PrimitiveMain" />
+    <configuration name="ImmutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.ImmutableMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.test.RectangleMain" />
+    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.test.ImmutableMyDateMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.test.*" />
+          <option name="PATTERN" value="lang.immutable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain_1" />
+    <configuration name="MyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.test.MyDateMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.immutable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain_2" />
+    <configuration name="StringBasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.StringBasicMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RefMain_2" />
-        <item itemvalue="Application.RefMain_1" />
-        <item itemvalue="Application.PrimitiveMain" />
-        <item itemvalue="Application.RectangleMain" />
-        <item itemvalue="Application.EqualsMainV2" />
+        <item itemvalue="Application.StringBasicMain" />
+        <item itemvalue="Application.CharArrayMain" />
+        <item itemvalue="Application.ImmutableMyDateMain" />
+        <item itemvalue="Application.MyDateMain" />
+        <item itemvalue="Application.ImmutableMain" />
       </list>
     </recent_temporary>
   </component>
@@ -257,35 +257,12 @@
       <workItem from="1729088112447" duration="1018000" />
       <workItem from="1729166364714" duration="3524000" />
       <workItem from="1729262885575" duration="5306000" />
-      <workItem from="1729412936657" duration="356000" />
-    </task>
-    <task id="LOCAL-00110" summary="TIL - 상속 정리">
-      <created>1726552602635</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1726552602635</updated>
-    </task>
-    <task id="LOCAL-00111" summary="TIL - 상속과 메서드 오버라이딩">
-      <created>1726666446740</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1726666446740</updated>
-    </task>
-    <task id="LOCAL-00112" summary="TIL - 상속과 접근 제어 1">
-      <created>1726754317539</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1726754317539</updated>
-    </task>
-    <task id="LOCAL-00113" summary="TIL - super">
-      <created>1726842597949</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1726842597949</updated>
+      <workItem from="1729412936657" duration="1431000" />
+      <workItem from="1729414374141" duration="3723000" />
+      <workItem from="1729517579484" duration="283000" />
+      <workItem from="1729604595813" duration="811000" />
+      <workItem from="1729692106860" duration="388000" />
+      <workItem from="1729773082493" duration="786000" />
     </task>
     <task id="LOCAL-00114" summary="TIL - 상속 super 정리 추가">
       <created>1726919363925</created>
@@ -602,7 +579,35 @@
       <option name="project" value="LOCAL" />
       <updated>1729350276580</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="TIL) Java - 불변객체 도입. clone이나 stringigy, parse 사용할 줄 알았느나 객체를 새로 생성하는 방법">
+      <created>1729413367493</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1729413367493</updated>
+    </task>
+    <task id="LOCAL-00160" summary="TIL - 불변객체 예제">
+      <created>1729517640870</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1729517640870</updated>
+    </task>
+    <task id="LOCAL-00161" summary="TIL - 불변객체 값 변경">
+      <created>1729606050101</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1729606050101</updated>
+    </task>
+    <task id="LOCAL-00162" summary="TIL - 불변객체 문제와 풀이">
+      <created>1729692134741</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692134741</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,10 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 다형성 활용 2" />
-    <MESSAGE value="TIL - 다형성 활용 3" />
-    <MESSAGE value="TIL - 추상클래스" />
-    <MESSAGE value="TIL - 추상클래스 정리" />
     <MESSAGE value="TIL - 추상클래스 2" />
     <MESSAGE value="TIL - 인터페이스 1" />
     <MESSAGE value="TIL - 인터페이스 다중 상속" />
@@ -645,7 +646,11 @@
     <MESSAGE value="TIL) Java - Object 정리" />
     <MESSAGE value="TIL) Java - Object 문제풀이" />
     <MESSAGE value="TIL) Java - 기본형과 참조형의 공유" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL) Java - 기본형과 참조형의 공유" />
+    <MESSAGE value="TIL) Java - 불변객체 도입. clone이나 stringigy, parse 사용할 줄 알았느나 객체를 새로 생성하는 방법" />
+    <MESSAGE value="TIL - 불변객체 예제" />
+    <MESSAGE value="TIL - 불변객체 값 변경" />
+    <MESSAGE value="TIL - 불변객체 문제와 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - 불변객체 문제와 풀이" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
