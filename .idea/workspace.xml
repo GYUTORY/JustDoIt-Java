@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 클래스">
-      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 클래스 - 비교">
+      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringInfoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,27 +77,14 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.string.immutable" />
       <recent name="lang.string.equals" />
       <recent name="lang.immutable.change" />
       <recent name="lang.immutable.address" />
       <recent name="equals" />
-      <recent name="lang.object.tostring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringEqualsMain2">
-    <configuration name="StringBasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.StringBasicMain" />
-      <module name="JustDoIt-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lang.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringInfoMain">
     <configuration name="StringEqualsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.string.equals.StringEqualsMain1" />
       <module name="JustDoIt-Java" />
@@ -123,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.super2.Super2Main" />
+    <configuration name="StringImmutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.immutable.StringImmutable1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.super2.*" />
+          <option name="PATTERN" value="lang.string.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.super1.SuperMain" />
+    <configuration name="StringImmutable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.immutable.StringImmutable2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.super1.*" />
+          <option name="PATTERN" value="lang.string.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringInfoMain" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringInfoMain" />
+        <item itemvalue="Application.StringImmutable2" />
+        <item itemvalue="Application.StringImmutable1" />
         <item itemvalue="Application.StringEqualsMain2" />
         <item itemvalue="Application.StringEqualsMain1" />
-        <item itemvalue="Application.Super2Main" />
-        <item itemvalue="Application.SuperMain" />
-        <item itemvalue="Application.StringBasicMain" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +266,10 @@
       <workItem from="1729773082493" duration="1412000" />
       <workItem from="1729832987521" duration="1079000" />
       <workItem from="1730724880514" duration="2432000" />
-      <workItem from="1730808971298" duration="1523000" />
-    </task>
-    <task id="LOCAL-00115" summary="TIL) super - 생성자">
-      <created>1726927643560</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1726927643561</updated>
+      <workItem from="1730808971298" duration="1601000" />
+      <workItem from="1730810815252" duration="914000" />
+      <workItem from="1730898720914" duration="140000" />
+      <workItem from="1730898869045" duration="564000" />
     </task>
     <task id="LOCAL-00116" summary="TIL) super - 메인에서 실행과정">
       <created>1726927763526</created>
@@ -610,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729773888665</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="TIL - String 클래스 - 비교">
+      <created>1730810758254</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1730810758254</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 인터페이스 1" />
     <MESSAGE value="TIL - 인터페이스 다중 상속" />
     <MESSAGE value="TIL - 인터페이스 정리" />
     <MESSAGE value="TIL - 클래스와 인터페이스 활용" />
@@ -653,7 +656,8 @@
     <MESSAGE value="TIL - 불변객체 값 변경" />
     <MESSAGE value="TIL - 불변객체 문제와 풀이" />
     <MESSAGE value="TIL - String 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 클래스" />
+    <MESSAGE value="TIL - String 클래스 - 비교" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 클래스 - 비교" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
