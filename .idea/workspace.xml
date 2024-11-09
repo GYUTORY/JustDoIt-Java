@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 클래스 - 주요 메서드2">
-      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 불변 객체">
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +83,9 @@
       <recent name="equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringSearchMain">
-    <configuration name="StringComparisonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringComparisonMain" />
+  <component name="RunManager" selected="Application.StringChangeMain2">
+    <configuration name="StringChangeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringChangeMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.immutable.StringImmutable1" />
+    <configuration name="StringChangeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringChangeMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.immutable.*" />
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.immutable.StringImmutable2" />
+    <configuration name="StringComparisonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringComparisonMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.immutable.*" />
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringChangeMain2" />
+        <item itemvalue="Application.StringChangeMain1" />
         <item itemvalue="Application.StringSearchMain" />
         <item itemvalue="Application.StringComparisonMain" />
         <item itemvalue="Application.StringInfoMain" />
-        <item itemvalue="Application.StringImmutable2" />
-        <item itemvalue="Application.StringImmutable1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,13 +271,8 @@
       <workItem from="1730898869045" duration="891000" />
       <workItem from="1730899764477" duration="411000" />
       <workItem from="1730980387333" duration="791000" />
-    </task>
-    <task id="LOCAL-00118" summary="TIL) super 문제풀이 및 설명">
-      <created>1726931019369</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1726931019369</updated>
+      <workItem from="1731076725926" duration="1780000" />
+      <workItem from="1731120160722" duration="309000" />
     </task>
     <task id="LOCAL-00119" summary="상속 마무리">
       <created>1727098685023</created>
@@ -614,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730980571942</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="TIL - String 불변 객체">
+      <created>1731076747492</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1731076747492</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL - 클래스와 인터페이스 활용" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제1" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제2" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제3" />
@@ -657,7 +659,8 @@
     <MESSAGE value="TIL - String 클래스 - 비교" />
     <MESSAGE value="TIL - String 클래스 - 주요 메서드1" />
     <MESSAGE value="TIL - String 클래스 - 주요 메서드2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 클래스 - 주요 메서드2" />
+    <MESSAGE value="TIL - String 불변 객체" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 불변 객체" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
