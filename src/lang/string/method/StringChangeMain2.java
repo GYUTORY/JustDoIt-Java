@@ -10,5 +10,7 @@ public class StringChangeMain2 {
 
         System.out.println("공백 제거(trim) : '" + stwWithSpaces.trim() + "'");
         System.out.println("공백 제거(strip) : '" + stwWithSpaces.strip() + "'");
+        System.out.println("앞공백 제거(strip) : '" + stwWithSpaces.stripLeading() + "'");
+        System.out.println("뒷공백 제거(strip) : '" + stwWithSpaces.stripTrailing() + "'");
     }
 }

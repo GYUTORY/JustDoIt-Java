@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 불변 객체">
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 주요메서드 2 - 1">
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSplitJoinMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +78,14 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.string.method" />
       <recent name="lang.string.immutable" />
       <recent name="lang.string.equals" />
       <recent name="lang.immutable.change" />
       <recent name="lang.immutable.address" />
-      <recent name="equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringChangeMain2">
+  <component name="RunManager" selected="Application.StringUtilsMain2">
     <configuration name="StringChangeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.string.method.StringChangeMain1" />
       <module name="JustDoIt-Java" />
@@ -110,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringComparisonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringComparisonMain" />
+    <configuration name="StringSplitJoinMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringSplitJoinMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringInfoMain" />
+    <configuration name="StringUtilsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringUtilsMain1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSearchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringSearchMain" />
+    <configuration name="StringUtilsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringUtilsMain2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringUtilsMain2" />
+        <item itemvalue="Application.StringUtilsMain1" />
+        <item itemvalue="Application.StringSplitJoinMain" />
         <item itemvalue="Application.StringChangeMain2" />
         <item itemvalue="Application.StringChangeMain1" />
-        <item itemvalue="Application.StringSearchMain" />
-        <item itemvalue="Application.StringComparisonMain" />
-        <item itemvalue="Application.StringInfoMain" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +274,7 @@
       <workItem from="1730899764477" duration="411000" />
       <workItem from="1730980387333" duration="791000" />
       <workItem from="1731076725926" duration="1780000" />
-      <workItem from="1731120160722" duration="309000" />
-    </task>
-    <task id="LOCAL-00119" summary="상속 마무리">
-      <created>1727098685023</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1727098685023</updated>
+      <workItem from="1731120160722" duration="1272000" />
     </task>
     <task id="LOCAL-00120" summary="TIL - 다형성 시작1">
       <created>1727184313721</created>
@@ -617,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731076747492</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="TIL - String 주요메서드 2 - 1">
+      <created>1731120497379</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1731120497379</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL) 다형성 - 역할과 구현 예제1" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제2" />
     <MESSAGE value="TIL) 다형성 - 역할과 구현 예제3" />
     <MESSAGE value="TIL) 다형성 - OCP(Open-Closed Principle) 원칙" />
@@ -660,7 +661,8 @@
     <MESSAGE value="TIL - String 클래스 - 주요 메서드1" />
     <MESSAGE value="TIL - String 클래스 - 주요 메서드2" />
     <MESSAGE value="TIL - String 불변 객체" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 불변 객체" />
+    <MESSAGE value="TIL - String 주요메서드 2 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 주요메서드 2 - 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
