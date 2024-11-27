@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="TIL - String 주요메서드 2 - 1">
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSplitJoinMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="중첩 클래스 3">
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassCreateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassMetaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/ShdowingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/nested/local/LocalOuterV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -33,9 +35,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GYUTORY&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kyungstar/JustDoIt-Java.git&quot;,
+    &quot;accountId&quot;: &quot;4e5bca57-80a1-4b12-8d2d-840439bf72a7&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gJBecDMFTua797jcSu1F0GsAUm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,12 +61,36 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChangeTimePlusMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChangeTimeWithMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoFieldMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoUnitMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetTimeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSupportMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShdowingMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdjusters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBetween.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCalenderPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLoopPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestZone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nested.inner.ex2.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nested.nested.ex2.NetworkMain.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/enumeration/ref3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,31 +108,31 @@
       <recent name="static2.ex" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/enumeration/ref3" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/poly/ex/pay1" />
       <recent name="$PROJECT_DIR$/src/poly/ex" />
       <recent name="$PROJECT_DIR$/src/poly/ex5" />
-      <recent name="$PROJECT_DIR$/src/poly/ex4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/extends1" />
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="lang.string.method" />
-      <recent name="lang.string.immutable" />
-      <recent name="lang.string.equals" />
-      <recent name="lang.immutable.change" />
-      <recent name="lang.immutable.address" />
+      <recent name="nested.inner.ex2" />
+      <recent name="nested.nested.ex2" />
+      <recent name="time" />
+      <recent name="enumeration.test" />
+      <recent name="enumeration.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringUtilsMain2">
-    <configuration name="StringChangeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringChangeMain1" />
+  <component name="RunManager" selected="Application.LocalOuterV1">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.inner.ex1.CarMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="nested.inner.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringChangeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringChangeMain2" />
+    <configuration name="InnerOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.inner.InnerOuterMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="nested.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSplitJoinMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringSplitJoinMain" />
+    <configuration name="LocalOuterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.nested.local.LocalOuterV1" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="nested.nested.local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringUtilsMain1" />
+    <configuration name="ShdowingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.ShdowingMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="nested.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringUtilsMain2" />
+    <configuration name="nested.inner.ex2.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.inner.ex2.CarMain" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="nested.inner.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,13 +194,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringUtilsMain2" />
-        <item itemvalue="Application.StringUtilsMain1" />
-        <item itemvalue="Application.StringSplitJoinMain" />
-        <item itemvalue="Application.StringChangeMain2" />
-        <item itemvalue="Application.StringChangeMain1" />
+        <item itemvalue="Application.LocalOuterV1" />
+        <item itemvalue="Application.ShdowingMain" />
+        <item itemvalue="Application.nested.inner.ex2.CarMain" />
+        <item itemvalue="Application.CarMain" />
+        <item itemvalue="Application.InnerOuterMain" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -274,119 +323,26 @@
       <workItem from="1730899764477" duration="411000" />
       <workItem from="1730980387333" duration="791000" />
       <workItem from="1731076725926" duration="1780000" />
-      <workItem from="1731120160722" duration="1272000" />
-    </task>
-    <task id="LOCAL-00120" summary="TIL - 다형성 시작1">
-      <created>1727184313721</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1727184313721</updated>
-    </task>
-    <task id="LOCAL-00121" summary="TIL - 다형성 시작2">
-      <created>1727185274101</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1727185274101</updated>
-    </task>
-    <task id="LOCAL-00122" summary="TIL - 다형성 시작3 (다운 캐스팅)">
-      <created>1727274926474</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1727274926474</updated>
-    </task>
-    <task id="LOCAL-00123" summary="TIL - 일시적 다운캐스팅">
-      <created>1727354526039</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1727354526039</updated>
-    </task>
-    <task id="LOCAL-00124" summary="TIL - 업캐스팅">
-      <created>1727354960508</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1727354960508</updated>
-    </task>
-    <task id="LOCAL-00125" summary="TIL - 디형성과 캐스팅 정리">
-      <created>1727444884696</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1727444884696</updated>
-    </task>
-    <task id="LOCAL-00126" summary="TIL - 다운캐스팅과 주의점 1">
-      <created>1727534371481</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1727534371481</updated>
-    </task>
-    <task id="LOCAL-00127" summary="TIL - 다운캐스팅과 주의점 2">
-      <created>1727534649726</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1727534649726</updated>
-    </task>
-    <task id="LOCAL-00128" summary="TIL - instanceof">
-      <created>1727592450328</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1727592450329</updated>
-    </task>
-    <task id="LOCAL-00129" summary="TIL - instanceof 2">
-      <created>1727594505365</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1727594505365</updated>
-    </task>
-    <task id="LOCAL-00130" summary="TIL - 다형성과 메서드 오버라이딩">
-      <created>1727709853682</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1727709853682</updated>
-    </task>
-    <task id="LOCAL-00131" summary="TIL - 다형성 활용 1">
-      <created>1727772648503</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1727772648503</updated>
-    </task>
-    <task id="LOCAL-00132" summary="TIL - 다형성 활용 1 - 2">
-      <created>1727772931946</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1727772931946</updated>
-    </task>
-    <task id="LOCAL-00133" summary="TIL - 다형성 활용 2">
-      <created>1727880712417</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1727880712417</updated>
-    </task>
-    <task id="LOCAL-00134" summary="TIL - 다형성 활용 3">
-      <created>1727922154282</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1727922154282</updated>
-    </task>
-    <task id="LOCAL-00135" summary="TIL - 추상클래스">
-      <created>1728053914048</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1728053914048</updated>
+      <workItem from="1731120160722" duration="14664000" />
+      <workItem from="1731209386733" duration="10639000" />
+      <workItem from="1731247609177" duration="555000" />
+      <workItem from="1731327944511" duration="1104000" />
+      <workItem from="1731413430823" duration="2741000" />
+      <workItem from="1731416274049" duration="2408000" />
+      <workItem from="1731500030558" duration="959000" />
+      <workItem from="1731591570237" duration="980000" />
+      <workItem from="1731682174969" duration="263000" />
+      <workItem from="1731725159265" duration="7092000" />
+      <workItem from="1731747005422" duration="11596000" />
+      <workItem from="1731852387901" duration="354000" />
+      <workItem from="1731894352256" duration="8911000" />
+      <workItem from="1732018482482" duration="814000" />
+      <workItem from="1732105240189" duration="136000" />
+      <workItem from="1732199340054" duration="227000" />
+      <workItem from="1732286520103" duration="209000" />
+      <workItem from="1732366415383" duration="1000000" />
+      <workItem from="1732523927299" duration="2901000" />
+      <workItem from="1732711982574" duration="387000" />
     </task>
     <task id="LOCAL-00136" summary="TIL - 추상클래스 정리">
       <created>1728138286086</created>
@@ -619,7 +575,119 @@
       <option name="project" value="LOCAL" />
       <updated>1731120497379</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="TIL - String 주요메서드 2 - 2">
+      <created>1731121678354</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1731121678354</updated>
+    </task>
+    <task id="LOCAL-00170" summary="static hashtag for me.">
+      <created>1731135648090</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1731135648090</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Spring Builder">
+      <created>1731209969957</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1731209969957</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Spring Builder와 String의 성능 비교">
+      <created>1731209992729</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1731209992729</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Spring 문제와 풀이">
+      <created>1731231508554</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1731231508554</updated>
+    </task>
+    <task id="LOCAL-00174" summary="MethodChaining">
+      <created>1731327988290</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1731327988290</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Math">
+      <created>1731413758167</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1731413758168</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Java System">
+      <created>1731414075152</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1731414075152</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Wrapper Class - 1">
+      <created>1731500192514</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1731500192515</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Wrapper Class - 2">
+      <created>1731500203973</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1731500203973</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Wrapper Class - 3">
+      <created>1731500226694</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1731500226694</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Java.Math - TEST">
+      <created>1731592468401</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592468402</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Wrapper TEST">
+      <created>1731592543076</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592543076</updated>
+    </task>
+    <task id="LOCAL-00182" summary="ENUM이 필요한 이유">
+      <created>1731682206914</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1731682206914</updated>
+    </task>
+    <task id="LOCAL-00183" summary="열거형 타입 안정성">
+      <created>1731730642930</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1731730642930</updated>
+    </task>
+    <task id="LOCAL-00184" summary="열거형이 만들어진 이유">
+      <created>1731730665250</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1731730665250</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,32 +705,42 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TIL) 다형성 - 역할과 구현 예제2" />
-    <MESSAGE value="TIL) 다형성 - 역할과 구현 예제3" />
-    <MESSAGE value="TIL) 다형성 - OCP(Open-Closed Principle) 원칙" />
-    <MESSAGE value="TIL) 기본형 참조형 오타 수정" />
-    <MESSAGE value="TIL) Java MID - Start" />
-    <MESSAGE value="TIL) Java - OCP 문제풀이 1" />
-    <MESSAGE value="TIL) Java - OCP 문제풀이 2" />
-    <MESSAGE value="TIL) Java - OCP 문제풀이 Fin." />
-    <MESSAGE value="TIL) Java - Object 다형성" />
-    <MESSAGE value="TIL) Java - Object" />
-    <MESSAGE value="TIL) Java - Object(toString())" />
-    <MESSAGE value="TIL) Java - Object(equals())" />
-    <MESSAGE value="TIL) Java - Object 정리" />
-    <MESSAGE value="TIL) Java - Object 문제풀이" />
-    <MESSAGE value="TIL) Java - 기본형과 참조형의 공유" />
-    <MESSAGE value="TIL) Java - 불변객체 도입. clone이나 stringigy, parse 사용할 줄 알았느나 객체를 새로 생성하는 방법" />
-    <MESSAGE value="TIL - 불변객체 예제" />
-    <MESSAGE value="TIL - 불변객체 값 변경" />
-    <MESSAGE value="TIL - 불변객체 문제와 풀이" />
-    <MESSAGE value="TIL - String 클래스" />
-    <MESSAGE value="TIL - String 클래스 - 비교" />
-    <MESSAGE value="TIL - String 클래스 - 주요 메서드1" />
-    <MESSAGE value="TIL - String 클래스 - 주요 메서드2" />
-    <MESSAGE value="TIL - String 불변 객체" />
-    <MESSAGE value="TIL - String 주요메서드 2 - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TIL - String 주요메서드 2 - 1" />
+    <MESSAGE value="MethodChaining" />
+    <MESSAGE value="Math" />
+    <MESSAGE value="Math Test" />
+    <MESSAGE value="Java System" />
+    <MESSAGE value="Wrapper Class - 1" />
+    <MESSAGE value="Wrapper Class - 2" />
+    <MESSAGE value="Wrapper Class - 3" />
+    <MESSAGE value="Java.Math - TEST" />
+    <MESSAGE value="Wrapper TEST" />
+    <MESSAGE value="ENUM이 필요한 이유" />
+    <MESSAGE value="열거형 타입 안정성" />
+    <MESSAGE value="ENUM메서드" />
+    <MESSAGE value="열거형이 만들어진 이유" />
+    <MESSAGE value="ENUM리팩토링" />
+    <MESSAGE value="ref2 리팩토링" />
+    <MESSAGE value="ENUM) 문제와 풀이 1" />
+    <MESSAGE value="ENUM) 문제와 풀이 2" />
+    <MESSAGE value="Zone Date" />
+    <MESSAGE value="Offset" />
+    <MESSAGE value="Network" />
+    <MESSAGE value="Java Time Util Fin." />
+    <MESSAGE value="Java Time Util - Test Fin." />
+    <MESSAGE value="중첩 클래스 - 내부클래스 1" />
+    <MESSAGE value="중첩 클래스 - 내부클래스 2" />
+    <MESSAGE value="중첩 클래스 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="중첩 클래스 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/enumeration/ex1/StringGrade.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
