@@ -31,6 +31,6 @@ public class LoopStringBuilderMain {
 
         String result = sb.toString();
         System.out.println("result = " + result);
-        System.out.println("time = " + (endTime - startTime) + "ms");
+        System.out.println("Java_Basic.time = " + (endTime - startTime) + "ms");
     }
 }

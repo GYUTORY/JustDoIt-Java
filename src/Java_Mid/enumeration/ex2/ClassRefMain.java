@@ -7,8 +7,8 @@ public class ClassRefMain {
         System.out.println("class GOLD = " + ClassGrade.GOLD.getClass());
         System.out.println("class DIAMOND = " + ClassGrade.DIAMOND.getClass());
 
-        System.out.println("ref BASIC = " + ClassGrade.BASIC);
-        System.out.println("ref GOLD = " + ClassGrade.GOLD);
-        System.out.println("ref DIAMOND = " + ClassGrade.DIAMOND);
+        System.out.println("Java_Basic.ref BASIC = " + ClassGrade.BASIC);
+        System.out.println("Java_Basic.ref GOLD = " + ClassGrade.GOLD);
+        System.out.println("Java_Basic.ref DIAMOND = " + ClassGrade.DIAMOND);
     }
 }

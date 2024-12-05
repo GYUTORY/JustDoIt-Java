@@ -15,6 +15,6 @@ public class LoopStringMain {
         long endTime = System.currentTimeMillis();
 
         System.out.println("result = " + result);
-        System.out.println("time = " + (endTime - startTime) + "ms");
+        System.out.println("Java_Basic.time = " + (endTime - startTime) + "ms");
     }
 }
