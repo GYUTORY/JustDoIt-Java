@@ -4,101 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="중첩클래스 - 지역클래스">
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Move Move Fin.">
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/AnonuymousV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java-Mid/Object 클래스.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/Object 클래스.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex0/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex0/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex1/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/StringGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex1/StringGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex1/StringGradeEx1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex1/StringGradeEx1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex2/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex2/ClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex2/ClassGradeEx2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex2/ClassGradeEx2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex2/ClassGradeEx2_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex2/ClassRefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex2/ClassRefMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex2/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex2/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex3/ClassGradeEx3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex3/ClassGradeEx3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex3/ClassGradeEx3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex3/ClassGradeEx3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex3/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex3/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex3/EnumMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex3/EnumMethodMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex3/EnumRefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex3/EnumRefMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ex3/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ex3/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref1/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref1/ClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref1/ClssGradeRefMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref1/ClssGradeRefMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref1/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref1/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref2/ClssGradeRefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref2/ClssGradeRefMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref2/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref2/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref2/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref2/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref3/ClssGradeRefMain3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref3/ClssGradeRefMain3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref3/ClssGradeRefMain3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref3/ClssGradeRefMain3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref3/ClssGradeRefMain3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref3/ClssGradeRefMain3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/ref3/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/ref3/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/test/AuthGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/test/AuthGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/test/AuthGradeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/test/AuthGradeMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/test/AuthGradeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/test/AuthGradeMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/test/http/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/test/http/HttpStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumeration/test/http/HttpStatusMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/enumeration/test/http/HttpStatusMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/clazz/ClassCreateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clazz/ClassCreateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/clazz/ClassMetaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clazz/ClassMetaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/clazz/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clazz/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/math/MathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/math/MathMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/math/RandomMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/math/RandomMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/math/test/LottoGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/math/test/LottoGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/math/test/LottoGeneratorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/math/test/LottoGeneratorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/ObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/ObjectMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/poly/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/poly/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/poly/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/poly/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/poly/ObjectPolyExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/poly/ObjectPolyExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/poly/ObjectPolyExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/poly/ObjectPolyExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/test/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/test/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/test/RectangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/test/RectangleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/tostring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/tostring/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/tostring/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/tostring/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/tostring/ObjectPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/tostring/ObjectPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/tostring/ToStringMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/tostring/ToStringMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/tostring/ToStringMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/object/tostring/ToStringMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/CharArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/CharArrayMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/StringBasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/StringBasicMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/builder/LoopStringBuilderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Builder/LoopStringBuilderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/builder/LoopStringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Builder/LoopStringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/builder/StringBuilderMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Builder/StringBuilderMain1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/builder/StringBuilderMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Builder/StringBuilderMain1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/chaining/MethodChainingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/Method_Chaining/MethodChainingMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/chaining/MethodChainingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/Method_Chaining/MethodChainingMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/chaining/MethodChainingMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/Method_Chaining/MethodChainingMain3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/chaining/ValueAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/Method_Chaining/ValueAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/equals/StringEqualsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/immutable/StringImmutable1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/immutable/StringImmutable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringChangeMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringChangeMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringComparisonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringComparisonMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringInfoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringSearchMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringSplitJoinMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringSplitJoinMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringUtilsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/String_Method/StringUtilsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/string/test/TestString9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/string/test/TestString9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/system/SystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Mid/system/SystemMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Basic/memory/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/JavaMemoryMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Basic/memory/JavaMemoryMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/JavaMemoryMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Basic/memory/JavaMemoryMain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +19,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,55 +56,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Animal.executor": "Run",
-    "Application.CarMain.executor": "Run",
-    "Application.ChangeTimePlusMain.executor": "Run",
-    "Application.ChangeTimeWithMain.executor": "Run",
-    "Application.ChronoFieldMain.executor": "Run",
-    "Application.ChronoUnitMain.executor": "Run",
-    "Application.FormattingMain1.executor": "Run",
-    "Application.FormattingMain2.executor": "Run",
-    "Application.GetTimeMain.executor": "Run",
-    "Application.InnerOuterMain.executor": "Run",
-    "Application.IsSupportMain1.executor": "Run",
-    "Application.LocalOuterV1.executor": "Run",
-    "Application.LocalOuterV2.executor": "Run",
-    "Application.LocalOuterV3.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NestedOuterMain.executor": "Run",
-    "Application.NetworkMain.executor": "Run",
-    "Application.ShdowingMain.executor": "Run",
-    "Application.TestAdjusters.executor": "Run",
-    "Application.TestBetween.executor": "Run",
-    "Application.TestCalenderPrinter.executor": "Run",
-    "Application.TestLoopPlus.executor": "Run",
-    "Application.TestPlus.executor": "Run",
-    "Application.TestZone.executor": "Run",
-    "Application.nested.inner.ex2.CarMain.executor": "Run",
-    "Application.nested.nested.ex2.NetworkMain.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/enumeration/ref3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonuymousV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChangeTimePlusMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChangeTimeWithMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoFieldMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoUnitMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetTimeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSupportMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuterV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuterV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuterV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShdowingMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdjusters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBetween.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCalenderPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLoopPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestZone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nested.inner.ex2.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nested.nested.ex2.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/enumeration/ref3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="static2.ex" />
@@ -212,14 +122,14 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Java_Mid.nested.anonymous" />
       <recent name="nested.nested.local" />
       <recent name="nested.inner.ex2" />
       <recent name="nested.nested.ex2" />
       <recent name="time" />
-      <recent name="enumeration.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Ex0Main">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal" />
       <module name="JustDoIt-Java" />
@@ -227,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalOuterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested.nested.local.LocalOuterV1" />
+    <configuration name="AnonuymousV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Mid.nested.anonymous.AnonuymousV2" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested.nested.local.*" />
+          <option name="PATTERN" value="Java_Mid.nested.anonymous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalOuterV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested.nested.local.LocalOuterV2" />
+    <configuration name="Ex0Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Mid.nested.anonymous.ex.Ex0Main" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested.nested.local.*" />
+          <option name="PATTERN" value="Java_Mid.nested.anonymous.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +164,11 @@
       </method>
     </configuration>
     <configuration name="LocalOuterV3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="nested.nested.local.LocalOuterV3" />
+      <option name="MAIN_CLASS_NAME" value="Java_Mid.nested.nested.local.LocalOuterV3" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested.nested.local.*" />
+          <option name="PATTERN" value="Java_Mid.nested.nested.local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,19 +184,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Ex0Main" />
+      <item itemvalue="Application.AnonuymousV2" />
       <item itemvalue="Application.Animal" />
-      <item itemvalue="Application.LocalOuterV1" />
-      <item itemvalue="Application.LocalOuterV2" />
       <item itemvalue="Application.LocalOuterV3" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex0Main" />
+        <item itemvalue="Application.AnonuymousV2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Animal" />
         <item itemvalue="Application.LocalOuterV3" />
-        <item itemvalue="Application.LocalOuterV2" />
-        <item itemvalue="Application.LocalOuterV1" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +344,10 @@
       <workItem from="1732797091359" duration="1567000" />
       <workItem from="1732890182832" duration="611000" />
       <workItem from="1733309656078" duration="73000" />
-      <workItem from="1733309731471" duration="5010000" />
+      <workItem from="1733309731471" duration="6101000" />
+      <workItem from="1733487417958" duration="656000" />
+      <workItem from="1734438082017" duration="2538000" />
+      <workItem from="1734526014166" duration="251000" />
     </task>
     <task id="LOCAL-00136" summary="TIL - 추상클래스 정리">
       <created>1728138286086</created>
@@ -779,7 +692,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731730665250</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,8 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Math Test" />
-    <MESSAGE value="Java System" />
     <MESSAGE value="Wrapper Class - 1" />
     <MESSAGE value="Wrapper Class - 2" />
     <MESSAGE value="Wrapper Class - 3" />
@@ -822,7 +733,9 @@
     <MESSAGE value="중첩 클래스 3" />
     <MESSAGE value="Set." />
     <MESSAGE value="중첩클래스 - 지역클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="중첩클래스 - 지역클래스" />
+    <MESSAGE value="Move Move" />
+    <MESSAGE value="Move Move Fin." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move Move Fin." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
