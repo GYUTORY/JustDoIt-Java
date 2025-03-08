@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Move Move Fin.">
-      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/AnonuymousV2.java" afterDir="false" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="익명클래스 1">
+      <change afterPath="$PROJECT_DIR$/src/CodingTest/baekjoon/advance_level1/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingTest/baekjoon/one_dimensional_array/AssignmentNotSubmitted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingTest/baekjoon/one_dimensional_array/BallSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingTest/baekjoon/one_dimensional_array/BasketFlip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingTest/baekjoon/one_dimensional_array/CountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingTest/baekjoon/two_dimensional_array/MaximumValue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex0RefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex1RefMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex1RefMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex1RefMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Ex1RefMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Mid/nested/anonymous/ex/Process.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,56 +68,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnonuymousV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChangeTimePlusMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChangeTimeWithMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChronoFieldMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChronoUnitMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetTimeMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsSupportMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShdowingMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAdjusters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBetween.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCalenderPrinter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestLoopPlus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPlus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestZone.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nested.inner.ex2.CarMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nested.nested.ex2.NetworkMain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/enumeration/ref3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Animal.executor": "Run",
+    "Application.AnonuymousV2.executor": "Run",
+    "Application.ArtisticUniversity.executor": "Run",
+    "Application.BasketBalls.executor": "Run",
+    "Application.CarMain.executor": "Run",
+    "Application.ChangeTimePlusMain.executor": "Run",
+    "Application.ChangeTimeWithMain.executor": "Run",
+    "Application.ChronoFieldMain.executor": "Run",
+    "Application.ChronoUnitMain.executor": "Run",
+    "Application.Ex0Main.executor": "Run",
+    "Application.Ex0RefMain.executor": "Run",
+    "Application.Ex1Main.executor": "Run",
+    "Application.Ex1RefMainV1.executor": "Run",
+    "Application.Ex1RefMainV2.executor": "Run",
+    "Application.Ex1RefMainV3.executor": "Run",
+    "Application.Ex1RefMainV4.executor": "Run",
+    "Application.FormattingMain1.executor": "Run",
+    "Application.FormattingMain2.executor": "Run",
+    "Application.GetTimeMain.executor": "Run",
+    "Application.InnerOuterMain.executor": "Run",
+    "Application.IsSupportMain1.executor": "Run",
+    "Application.LocalOuterV1.executor": "Run",
+    "Application.LocalOuterV2.executor": "Run",
+    "Application.LocalOuterV3.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MatrixAddition.executor": "Run",
+    "Application.MaximumValue.executor": "Run",
+    "Application.NestedOuterMain.executor": "Run",
+    "Application.NetworkMain.executor": "Run",
+    "Application.Queen.executor": "Run",
+    "Application.ShdowingMain.executor": "Run",
+    "Application.TestAdjusters.executor": "Run",
+    "Application.TestBetween.executor": "Run",
+    "Application.TestCalenderPrinter.executor": "Run",
+    "Application.TestLoopPlus.executor": "Run",
+    "Application.TestPlus.executor": "Run",
+    "Application.TestZone.executor": "Run",
+    "Application.nested.inner.ex2.CarMain.executor": "Run",
+    "Application.nested.nested.ex2.NetworkMain.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/enumeration/ref3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="static2.ex" />
@@ -122,27 +146,20 @@
       <recent name="$PROJECT_DIR$/img/statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Java_Mid.nested.anonymous.ex" />
       <recent name="Java_Mid.nested.anonymous" />
       <recent name="nested.nested.local" />
       <recent name="nested.inner.ex2" />
       <recent name="nested.nested.ex2" />
-      <recent name="time" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex0Main">
-    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Animal" />
-      <module name="JustDoIt-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonuymousV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Mid.nested.anonymous.AnonuymousV2" />
+  <component name="RunManager" selected="Application.MaximumValue">
+    <configuration name="ArtisticUniversity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingTest.baekjoon.advance_level1.ArtisticUniversity" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Mid.nested.anonymous.*" />
+          <option name="PATTERN" value="CodingTest.baekjoon.advance_level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex0Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Mid.nested.anonymous.ex.Ex0Main" />
+    <configuration name="BasketBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingTest.baekjoon.BasketBalls" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Mid.nested.anonymous.ex.*" />
+          <option name="PATTERN" value="CodingTest.baekjoon.two_dimensional_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalOuterV3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Mid.nested.nested.local.LocalOuterV3" />
+    <configuration name="MatrixAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingTest.baekjoon.MatrixAddition" />
       <module name="JustDoIt-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Mid.nested.nested.local.*" />
+          <option name="PATTERN" value="CodingTest.baekjoon.two_dimensional_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,27 +193,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MaximumValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingTest.baekjoon.two_dimensional_array.MaximumValue" />
       <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingTest.baekjoon.two_dimensional_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingTest.baekjoon.advance_level1.Queen" />
+      <module name="JustDoIt-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingTest.baekjoon.advance_level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex0Main" />
-      <item itemvalue="Application.AnonuymousV2" />
-      <item itemvalue="Application.Animal" />
-      <item itemvalue="Application.LocalOuterV3" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ArtisticUniversity" />
+      <item itemvalue="Application.BasketBalls" />
+      <item itemvalue="Application.MatrixAddition" />
+      <item itemvalue="Application.MaximumValue" />
+      <item itemvalue="Application.Queen" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex0Main" />
-        <item itemvalue="Application.AnonuymousV2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Animal" />
-        <item itemvalue="Application.LocalOuterV3" />
+        <item itemvalue="Application.MaximumValue" />
+        <item itemvalue="Application.ArtisticUniversity" />
+        <item itemvalue="Application.Queen" />
+        <item itemvalue="Application.BasketBalls" />
+        <item itemvalue="Application.MatrixAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +383,11 @@
       <workItem from="1733309731471" duration="6101000" />
       <workItem from="1733487417958" duration="656000" />
       <workItem from="1734438082017" duration="2538000" />
-      <workItem from="1734526014166" duration="251000" />
+      <workItem from="1734526014166" duration="3211000" />
+      <workItem from="1734615778917" duration="358000" />
+      <workItem from="1734705878917" duration="21000" />
+      <workItem from="1734867918678" duration="185000" />
+      <workItem from="1735049345942" duration="1594000" />
     </task>
     <task id="LOCAL-00136" summary="TIL - 추상클래스 정리">
       <created>1728138286086</created>
@@ -692,7 +732,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731730665250</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +750,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wrapper Class - 1" />
     <MESSAGE value="Wrapper Class - 2" />
     <MESSAGE value="Wrapper Class - 3" />
     <MESSAGE value="Java.Math - TEST" />
@@ -735,7 +774,8 @@
     <MESSAGE value="중첩클래스 - 지역클래스" />
     <MESSAGE value="Move Move" />
     <MESSAGE value="Move Move Fin." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move Move Fin." />
+    <MESSAGE value="익명클래스 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="익명클래스 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
