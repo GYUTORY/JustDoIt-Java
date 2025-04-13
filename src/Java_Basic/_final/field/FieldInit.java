@@ -1,6 +1,6 @@
 // TIL - final 변수와 상수 1
 
-package Java_Basic._final;
+package Java_Basic._final.field;
 
 public class FieldInit {
 

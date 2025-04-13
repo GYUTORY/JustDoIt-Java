@@ -1,6 +1,8 @@
 // TIL - final 변수와 상수 1
 
-package Java_Basic._final;
+package Java_Basic._final.field;
+
+import Java_Basic._final.constructor.ConstructInit;
 
 public class FinalFieldMain {
     public static void main(String[] args) {
