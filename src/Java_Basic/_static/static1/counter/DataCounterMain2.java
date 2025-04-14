@@ -1,28 +1,37 @@
 // TIL - static 변수 1
-package Java_Basic._static.static1;
+package Java_Basic._static.static1.counter;
 
+import Java_Basic._static.static1.basic.Counter;
+import Java_Basic._static.static1.basic.Data2;
+
+/**
+ * 공유 Counter 객체를 사용한 카운터 예제
+ * 하나의 Counter 객체를 여러 Data2 인스턴스가 공유하여 전체 개수를 추적
+ */
 public class DataCounterMain2 {
-
-
-    /*
-    Data2 인스턴스를 생성하면 생성자를 통해 Counter 인스턴스에 있는 count 값을 하나 증가시킨다.
-    count값은 1, 2, 3 점차 증가된다.
-
-    결과적으로, Data2의 인스턴스가 3개 생성되고, count 값도 인스턴스 숫자와 같은 3으로 정확하게 측저된다.
-
-    그런데 여기에는 약간 불편한 점들이 있다.
-    - Data2 클래스와 관련된 일인데, Counter라는 별도의 클래스를 추가로 사용해야 한다.
-    - 생성자의 매개변수도 추가되고, 생성자가 복잡해진다. 생성자를 호출하는 부분도 복잡해진다.
-    * */
+    /**
+     * Counter 객체를 통한 인스턴스 카운팅의 장단점
+     * 
+     * 장점:
+     * - 정확한 인스턴스 개수 추적 가능
+     * - Counter 객체를 통한 중앙 집중식 관리
+     * 
+     * 단점:
+     * - 별도의 Counter 클래스 필요
+     * - 생성자가 복잡해짐 (Counter 객체를 매개변수로 전달)
+     * - Counter 객체를 항상 함께 관리해야 함
+     */
     public static void main(String[] args) {
-        Counter counter = new Counter();
+        Counter counter = new Counter();  // 공유할 Counter 객체 생성
+        
+        // 각 Data2 인스턴스 생성 시 같은 Counter 객체 전달
         Data2 data1 = new Data2("A", counter);
-        System.out.println("A count=" + counter.count);
+        System.out.println("A count=" + counter.count);  // count = 1
 
         Data2 data2 = new Data2("B", counter);
-        System.out.println("B count=" + counter.count);
+        System.out.println("B count=" + counter.count);  // count = 2
 
         Data2 data3 = new Data2("C", counter);
-        System.out.println("C count=" + counter.count);
+        System.out.println("C count=" + counter.count);  // count = 3
     }
 }
