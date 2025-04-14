@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="Coding Test" />
+    <list default="true" id="c0d0ada9-80b4-48c8-9495-cf11d9aca4a9" name="Changes" comment="정리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;GYUTORY&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kyungstar/JustDoIt-Java.git&quot;,
-    &quot;accountId&quot;: &quot;4e5bca57-80a1-4b12-8d2d-840439bf72a7&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kyungstar/JustDoIt-Java.git",
+    "accountId": "80aab61a-5ff2-4bd6-8f90-755cd0b209bb"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,68 +52,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnonuymousV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArtisticUniversity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasketBalls.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChangeTimePlusMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChangeTimeWithMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChronoFieldMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChronoUnitMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex0Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex0RefMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetTimeMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsSupportMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MatrixAddition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Queen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShdowingMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAdjusters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBetween.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCalenderPrinter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestLoopPlus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPlus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestZone.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nested.inner.ex2.CarMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nested.nested.ex2.NetworkMain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java/src/enumeration/ref3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Animal.executor": "Run",
+    "Application.AnonuymousV2.executor": "Run",
+    "Application.ArtisticUniversity.executor": "Run",
+    "Application.BasketBalls.executor": "Run",
+    "Application.CarMain.executor": "Run",
+    "Application.ChangeTimePlusMain.executor": "Run",
+    "Application.ChangeTimeWithMain.executor": "Run",
+    "Application.ChronoFieldMain.executor": "Run",
+    "Application.ChronoUnitMain.executor": "Run",
+    "Application.Ex0Main.executor": "Run",
+    "Application.Ex0RefMain.executor": "Run",
+    "Application.Ex1Main.executor": "Run",
+    "Application.Ex1RefMainV1.executor": "Run",
+    "Application.Ex1RefMainV2.executor": "Run",
+    "Application.Ex1RefMainV3.executor": "Run",
+    "Application.Ex1RefMainV4.executor": "Run",
+    "Application.FormattingMain1.executor": "Run",
+    "Application.FormattingMain2.executor": "Run",
+    "Application.GetTimeMain.executor": "Run",
+    "Application.InnerOuterMain.executor": "Run",
+    "Application.IsSupportMain1.executor": "Run",
+    "Application.LocalOuterV1.executor": "Run",
+    "Application.LocalOuterV2.executor": "Run",
+    "Application.LocalOuterV3.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MatrixAddition.executor": "Run",
+    "Application.MaximumValue.executor": "Run",
+    "Application.NestedOuterMain.executor": "Run",
+    "Application.NetworkMain.executor": "Run",
+    "Application.Queen.executor": "Run",
+    "Application.ShdowingMain.executor": "Run",
+    "Application.TestAdjusters.executor": "Run",
+    "Application.TestBetween.executor": "Run",
+    "Application.TestCalenderPrinter.executor": "Run",
+    "Application.TestLoopPlus.executor": "Run",
+    "Application.TestPlus.executor": "Run",
+    "Application.TestZone.executor": "Run",
+    "Application.nested.inner.ex2.CarMain.executor": "Run",
+    "Application.nested.nested.ex2.NetworkMain.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kkyung/Desktop/workspace/Project/JustDoIt-Java/JustDoIt-Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="static2.ex" />
@@ -210,14 +210,6 @@
       <item itemvalue="애플리케이션.MaximumValue" />
       <item itemvalue="애플리케이션.Queen" />
     </list>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -708,7 +700,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731730665250</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +718,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wrapper Class - 3" />
     <MESSAGE value="Java.Math - TEST" />
     <MESSAGE value="Wrapper TEST" />
     <MESSAGE value="ENUM이 필요한 이유" />
@@ -751,7 +742,8 @@
     <MESSAGE value="Move Move Fin." />
     <MESSAGE value="익명클래스 1" />
     <MESSAGE value="Coding Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding Test" />
+    <MESSAGE value="정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
