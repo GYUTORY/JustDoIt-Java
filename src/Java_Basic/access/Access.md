@@ -96,5 +96,5 @@ class DefaultClass2 {
 - PublicClass는 public 접근 제어자다. 따라서, 파일명과 이 클래스의 이름이 반드시 같아야 한다. public이기 때문에, 외부에서 접근할 수 있다.
 - DefaultClass1, DefaultClass2는 default 접근 제어자다. 이 클래스는 default이기 때문에 같은 패키지 내부에서만 접근할 수 있다.
 - PublicClass의 main()을 보면 각각의 클래스를 사용하는 예를 보여준다. 
-  - PublicClass는 pubic 접근 제어다. 따라서, 어디서든 사용할 수 있다. DefaultClass1, DefaultClass2와는 같은 패키지에 있으므로 사용할 수 있다.
+- PublicClass는 pubic 접근 제어다. 따라서, 어디서든 사용할 수 있다. DefaultClass1, DefaultClass2와는 같은 패키지에 있으므로 사용할 수 있다.
 
