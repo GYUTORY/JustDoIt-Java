@@ -1,32 +1,77 @@
+# Java의 접근 제어자 이해하기 🔒
 
-### 접근 제어자 이해
-- 자바는 public, private 같은 접근 제어자(Java_Basic.access modifier)를 제공한다.
-- 접근 제어자를 사용하면 해당 클래스 외부에서 특정 필드나 메서드에 접근하는 것을 허용하거나 제한할 수 있다. 
+## 📁 패키지 구성
+### 1. 기본 예제
+- `BankAccount`: 캡슐화가 필요한 은행 계좌 시스템
+- `Speaker`: 볼륨 조절이 있는 스피커 시스템
 
-### 접근제어자의 종류
-1. private : 모든 외부 호출을 막는다.
-2. default(package-private) : 같은 패키지안에서 호출은 허용한다.
-3. protected : 같은 패키지안에서 허용한다. 패키지가 달라도 상속 관계의 호출은 허용한다.
-4. public : 모든 외부 호출을 허용한다.
+### 2. 접근 제어 테스트
+- `same_package`: 같은 패키지 내에서의 접근 테스트
+  - 같은 패키지 내에서 default, protected 접근
+  - 여러 클래스 정의와 접근 방법
+- `other_package`: 다른 패키지에서의 접근 테스트
+  - public만 접근 가능
+  - protected는 상속 관계에서만 접근 가능
 
-> private > default > protected > public 
+### 3. 실전 예제 (`ex` 패키지)
+- `Counter`: 접근 제어로 안전한 카운터 만들기
+- `Item`: 상품 정보 클래스
+- `ShoppingCart`: 장바구니 시스템
 
+## 🎯 주요 학습 포인트
 
---- 
+### 1. 접근 제어자의 종류와 범위
+| 접근 제어자 | 같은 클래스 | 같은 패키지 | 자식 클래스 | 전체 |
+|------------|------------|------------|------------|------|
+| private    | ⭕         | ❌         | ❌         | ❌   |
+| default    | ⭕         | ⭕         | ❌         | ❌   |
+| protected  | ⭕         | ⭕         | ⭕         | ❌   |
+| public     | ⭕         | ⭕         | ⭕         | ⭕   |
 
-### 접근 제어자 사용 위치
-- 접근 제어자는 필드와 메서드, 생성자에 사용된다.
-- 클래스 레벨에도 일부 접근 제어자를 사용할 수 있다.
+### 2. 패키지 별 테스트 예제
+1. `same_package` 테스트
+```java
+// same_package/PublicClass.java
+public class PublicClass {
+    public static void main(String[] args) {
+        DefaultClass1 class1 = new DefaultClass1();    // ⭕ 같은 패키지라서 가능
+        DefaultClass2 class2 = new DefaultClass2();    // ⭕ 같은 패키지라서 가능
+    }
+}
 
+// 같은 파일에 default 클래스 정의 가능
+class DefaultClass1 { }
+class DefaultClass2 { }
+```
 
----
+2. `other_package` 테스트
+```java
+// other_package/AccessTest.java
+import same_package.PublicClass;    // ⭕ public 클래스는 임포트 가능
+import same_package.DefaultClass1;  // ❌ default 클래스는 다른 패키지에서 접근 불가
+```
 
-# 클래스 레벨의 접근 제어자 규칙
-- 클래스 레벨의 접근 제어자는 public, default만 사용할 수 있다. 
-  - private, protected는 사용할 수 없다. 
-- public 클래스는 반드시 파일명과 이름이 같아야 한다.
-  - 하나의 자바 파일에 public 클래스는 하나만 등장할 수 있다.
-  - 하나의 자바 파일에 default 접그 제어자를 사용하는 클래스는 무한정 막을 수 있다.
+### 3. 실제 활용 예시
+1. `private` - 데이터 보호
+   - 계좌 잔액 (BankAccount의 balance)
+   - 스피커 볼륨 상태 (Speaker의 volume)
+
+2. `default` - 같은 패키지 내 기능
+   - 내부 구현 클래스
+   - 헬퍼 메서드
+
+3. `protected` - 상속 관계 활용
+   - 자식 클래스에서 접근 필요한 메서드
+   - 확장 가능한 기능들
+
+4. `public` - 외부 공개 기능
+   - 계좌 입출금 메서드
+   - 스피커 볼륨 조절 메서드
+
+### 4. 주의사항
+- `public` 클래스는 반드시 파일명과 같아야 함
+- 한 파일에 `public` 클래스는 하나만 가능
+- 클래스 레벨에서는 `public`과 `default`만 사용 가능
 
 ```java
 package Java_Basic.access.a;
