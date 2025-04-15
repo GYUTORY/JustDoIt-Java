@@ -1,106 +1,117 @@
-# Java의 final 키워드와 상수
+# Java final 키워드 정리 📚
 
-## 1. 상수(Constant)
-상수는 변하지 않고, 항상 일정한 값을 갖는 수를 말합니다. 자바에서는 보통 단 하나만 존재하는 변하지 않는 고정된 값을 상수라 합니다.
+## 1. final 키워드의 기본 개념
 
-### 1.1 자바 상수의 특징
-- `static final` 키워드를 사용합니다.
-  - `static`: 클래스 레벨에서 공유되는 값
-  - `final`: 한 번 초기화되면 변경할 수 없음
-- 대문자를 사용하고 구분은 `_` (언더스코어)로 합니다.
-  - 예: `MAX_USERS`, `PI`, `HOURS_IN_DAY`
-- 필드를 직접 접근해서 사용합니다.
-  - 상수는 기능이 아니라 고정된 값 자체를 사용하는 것이 목적입니다.
-  - 상수는 값을 변경할 수 없으므로 필드에 직접 접근해도 안전합니다.
+final 키워드는 Java에서 변수, 메서드, 클래스에 적용할 수 있는 제어자(modifier)입니다. 
+final이 적용된 대상은 초기화 후 변경이 불가능합니다.
 
-### 1.2 상수를 사용하는 이유
-1. 매직 넘버 제거
-   - 의미가 불명확한 숫자를 의미 있는 이름으로 대체
-   - 코드의 가독성 향상
-2. 유지보수성 향상
-   - 값 변경 시 한 곳만 수정하면 됨
-   - 실수로 인한 버그 방지
-3. 중앙 집중화 관리
-   - 모든 상수 값을 한 곳에서 관리
-   - 값의 일관성 보장
+## 2. final의 주요 사용 사례
 
-### 1.3 상수 사용 예시
-```java
-public class Constant {
-    // 수학 상수
-    public static final double PI = 3.14;
+### 2.1 필드(Field)에 final 사용
+- 인스턴스 변수나 클래스 변수에 final을 적용
+- 초기화 후 값 변경 불가
+- 생성자에서 초기화하거나 선언 시 초기화
 
-    // 시간 상수
-    public static final int HOURS_IN_DAY = 24;
-    public static final int MINUTES_IN_HOUR = 60;
+### 2.2 지역 변수(Local Variable)에 final 사용
+- 메서드 내부의 변수에 final 적용
+- 초기화 후 값 변경 불가
+- 메서드 파라미터에도 적용 가능
 
-    // 애플리케이션 설정 상수
-    public static final int MAX_USERS = 1000;
-}
+### 2.3 참조 변수(Reference Variable)에 final 사용
+- 객체 참조 변수에 final 적용
+- 참조하는 객체는 변경 불가
+- 객체의 내부 상태는 변경 가능
+
+### 2.4 상수(Constant) 정의
+- static final 조합으로 상수 정의
+- 대문자와 언더스코어로 명명
+- 프로그램 전체에서 공유되는 불변 값
+
+## 3. 패키지 구조
+
+```
+src/Java_Basic/_final/
+├── constructor/           # 생성자에서 final 필드 초기화
+│   └── ConstructInit.java
+├── reference/            # 참조 변수의 final 사용
+│   ├── Data.java
+│   └── FinalRefMain.java
+├── local/               # 지역 변수의 final 사용
+│   └── FinalLocalMain.java
+├── field/              # 클래스 필드의 final 사용
+│   ├── FieldInit.java
+│   └── FinalFieldMain.java
+├── constant/           # 상수 정의와 사용
+│   ├── Constant.java
+│   ├── ConstantMain1.java
+│   └── ConstantMain2.java
+└── ex/                # 기본 예제
+    ├── Member.java
+    └── MemberMain.java
 ```
 
-## 2. final 변수와 참조
+## 4. 주요 예제 설명
 
-### 2.1 final의 의미
-- `final`은 변수의 값을 변경하지 못하게 막습니다.
-- 변수의 종류에 따라 다른 제약이 적용됩니다:
-  1. 기본형 변수: 값 자체를 변경할 수 없음
-  2. 참조형 변수: 참조값을 변경할 수 없음 (객체의 내부 상태는 변경 가능)
+### 4.1 생성자에서 final 필드 초기화 (constructor)
+- `ConstructInit.java`: 생성자를 통한 final 필드 초기화 예제
+- 생성자에서 한 번 초기화된 후 변경 불가
 
-### 2.2 final 변수의 종류
-1. final 필드 (멤버 변수)
-   - 클래스 내부에서 선언된 final 변수
-   - 생성자에서 초기화하거나 선언과 동시에 초기화해야 함
+### 4.2 참조 변수의 final 사용 (reference)
+- `Data.java`: 기본 데이터 클래스
+- `FinalRefMain.java`: final 참조 변수의 특징 설명
+- 참조는 변경 불가, 객체 내부 상태는 변경 가능
 
-2. final 지역 변수
-   - 메서드 내부에서 선언된 final 변수
-   - 선언과 동시에 초기화하거나 한 번만 초기화 가능
+### 4.3 지역 변수의 final 사용 (local)
+- `FinalLocalMain.java`: final 지역 변수와 파라미터 사용 예제
+- 초기화 후 값 변경 불가
+- 메서드 파라미터에도 적용 가능
 
-3. final 매개변수
-   - 메서드의 매개변수로 선언된 final 변수
-   - 메서드 내부에서 값을 변경할 수 없음
+### 4.4 클래스 필드의 final 사용 (field)
+- `FieldInit.java`: final 필드 초기화 예제
+- `FinalFieldMain.java`: final 필드 사용 예제
+- static final과 인스턴스 final 필드 구분
 
-### 2.3 final 사용 시 주의사항
-1. 초기화
-   - final 필드는 반드시 초기화해야 함
-   - 초기화되지 않은 final 필드는 컴파일 에러 발생
+### 4.5 상수 정의와 사용 (constant)
+- `Constant.java`: 상수 정의 클래스
+- `ConstantMain1.java`: 매직 넘버 사용의 문제점
+- `ConstantMain2.java`: 상수 사용의 장점
 
-2. 상속
-   - final 메서드는 오버라이딩 불가
-   - final 클래스는 상속 불가
+## 5. final 사용 시 주의사항
 
-3. 참조형 변수
-   - final 참조형 변수의 경우 참조값만 변경 불가
-   - 객체의 내부 상태는 변경 가능
+1. 초기화 시점
+   - 필드: 선언 시 또는 생성자에서 초기화
+   - 지역 변수: 사용 전 초기화
+   - 참조 변수: 참조하는 객체 변경 불가
 
-## 3. final 사용의 장점
-1. 안전성
-   - 실수로 인한 값 변경 방지
-   - 컴파일 시점에 오류 발견 가능
+2. 상수 정의
+   - static final 조합 사용
+   - 대문자와 언더스코어로 명명
+   - 의미 있는 이름 사용
 
-2. 가독성
-   - 코드의 의도를 명확히 전달
-   - 변수의 불변성 보장
+3. 참조 변수
+   - 참조 변경 불가
+   - 객체 내부 상태 변경 가능
+   - 불변 객체 설계 시 고려
 
-3. 유지보수성
-   - 코드의 복잡성 감소
-   - 버그 발생 가능성 감소
+## 6. 실습 예제
 
-## 4. 사용 예시
-```java
-public class Example {
-    // final 필드
-    private final String id;
-    
-    // final 지역 변수
-    public void method() {
-        final int number = 10;
-        // number = 20; // 컴파일 에러
-    }
-    
-    // final 매개변수
-    public void process(final String data) {
-        // data = "new value"; // 컴파일 에러
-    }
-}
-```
+### 6.1 기본 예제 (ex)
+- `Member.java`: final 필드 사용 예제
+- `MemberMain.java`: final 필드 사용 실습
+
+## 7. 연습문제
+
+1. 상수 클래스 만들기
+   - 수학 관련 상수 정의
+   - 시간 관련 상수 정의
+   - 애플리케이션 설정 상수 정의
+
+2. final 필드 클래스 만들기
+   - 생성자에서 초기화하는 final 필드
+   - 선언 시 초기화하는 final 필드
+   - static final 필드
+
+3. 불변 객체 만들기
+   - 모든 필드를 final로 선언
+   - 생성자에서 초기화
+   - getter 메서드만 제공
