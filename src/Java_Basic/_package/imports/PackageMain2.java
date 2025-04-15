@@ -1,4 +1,4 @@
-package Java_Basic._package.import;
+package Java_Basic._package.imports;
 
 import Java_Basic._package.basic.Data;  // 단일 클래스 import
 import Java_Basic._package.sub.a.*;     // a 패키지의 모든 클래스 import
