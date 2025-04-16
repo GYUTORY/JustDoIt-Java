@@ -1,6 +1,8 @@
 // TIL - static 메서드 1
 
-package Java_Basic._static.static2;
+package Java_Basic._static.static2.decorator;
+
+import Java_Basic._static.static2.util.DecoUtil2;
 
 public class DecoMain2 {
 

@@ -1,6 +1,6 @@
 // TIL - static Java_Basic.method 2
 
-package Java_Basic._static.static2;
+package Java_Basic._static.static2.decorator;
 
 public class DecoData {
 
