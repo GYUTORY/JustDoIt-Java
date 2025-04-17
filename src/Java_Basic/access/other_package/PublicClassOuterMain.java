@@ -1,9 +1,8 @@
 // TIL - 접근 제어자 사용 - 클래스 레벨
 
-package Java_Basic.access.b;
+package Java_Basic.access.other_package;
 
-
-import Java_Basic.access.a.PublicClass;
+import Java_Basic.access.same_package.PublicClass;
 
 // 다른 패키지 접근불가
 //import Java_Basic.access.a.DefaultClass1;
@@ -17,5 +16,4 @@ public class PublicClassOuterMain {
         // 다른 패키지 접근불가
         // DefaultClass2 class2 = new DefaultClass2();
     }
-
 }

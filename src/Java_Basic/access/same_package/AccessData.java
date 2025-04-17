@@ -10,7 +10,7 @@
  */
 
 
-package Java_Basic.access.a;
+package Java_Basic.access.same_package;
 
 public class AccessData {
 

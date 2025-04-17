@@ -7,7 +7,7 @@
 - --> 이 메서드는 자신의 private 필드와 메서드에 모두 접근하 수 있다.
  */
 
-package Java_Basic.access.a;
+package Java_Basic.access.same_package;
 
 public class AccessInnerMain {
     public static void main(String[] args) {

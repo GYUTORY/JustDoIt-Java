@@ -1,4 +1,4 @@
-package Java_Basic.access;
+package Java_Basic.access.example.speaker;
 
 /**
  * Speaker 클래스는 접근 제어자를 활용한 캡슐화의 또 다른 예시입니다.
