@@ -1,7 +1,5 @@
 # Java의 static 키워드 이해하기 🚀
 
-## 📁 이 패키지에서 다룰 내용
-
 ### 1단계: static의 기초 (static1)
 - static이란 무엇인가요?
 - 인스턴스 변수와 static 변수의 차이점
