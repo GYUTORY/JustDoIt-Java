@@ -6,12 +6,12 @@ public class ScannerEx4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("구구단의 단 를을 입력해주세요 :");
-        int n = scanner.nextInt();
+        System.out.print("구구단의 단 수를 입력해주세요: ");
+        int number = scanner.nextInt();
 
-        for (int i = 1; i < 10; i++) {
-            System.out.println(n + "x" + i + " = " + n * i);
+        System.out.println(number + "단의 구구단:");
+        for (int i = 1; i <= 9; i++) {
+            System.out.println(number + " x " + i + " = " + number * i);
         }
-
     }
 }

@@ -1,25 +1,28 @@
 package Java_Basic.Scanner;
 
 import java.util.Scanner;
+
 public class ScannerWhile2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("첫 번째 숫자와 두 번째 숫자 모두 0을 입력하면 프로그램을 종료합니다.");
 
+        System.out.println("숫자를 입력하세요. 입력을 중단하려면 -1을 입력하세요:");
+        int sum = 0;
+        int count = 0;
+        
         while (true) {
-            System.out.print("첫 번째 숫자를 입력하세요:");
-            int num1 = scanner.nextInt();
-
-            System.out.print("두 번째 숫자를 입력하세요:");
-            int num2 = scanner.nextInt();
-
-            if (num1 == 0 && num2 == 0) {
-                System.out.println("프로그램 종료");
+            int number = scanner.nextInt();
+            
+            if (number == -1) {
                 break;
             }
-
-            int sum = num1 + num2;
-            System.out.println("두 숫자의 합: " + sum);
+            
+            sum += number;
+            count++;
         }
+        
+        double average = (double) sum / count;
+        System.out.println("입력한 숫자들의 합계: " + sum);
+        System.out.println("입력한 숫자들의 평균: " + average);
     }
 }

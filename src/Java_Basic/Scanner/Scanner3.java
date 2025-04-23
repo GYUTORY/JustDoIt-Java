@@ -19,6 +19,5 @@ public class Scanner3 {
         } else {
             System.out.println("두 숫자는 같습니다.");
         }
-
     }
 }

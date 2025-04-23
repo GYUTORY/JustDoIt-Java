@@ -12,16 +12,17 @@ public class ChangeVarEx {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
-        int temp;
+        
+        System.out.println("교환 전");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
-        //시작 : 코드를 작성하세요
-        temp = a;
+        // 교환 로직
+        int temp = a;
         a = b;
         b = temp;
 
-
-        //종료 : 코드를 작성하세요
-
+        System.out.println("\n교환 후");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
     }
